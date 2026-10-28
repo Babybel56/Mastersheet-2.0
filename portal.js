@@ -27,7 +27,7 @@
   state.shared=null;state.docs={};state.my=null;state.people=[];state.personId=null;drawAccess();navigation();await load();
  }
  function unlock(){modal('Unlock personal or editing access',body=>{
-  body.append(node('p','Shared views stay open. Your staff key opens your own duties, week and ECA assignments. Editing keys enable only their assigned modules.'));
+  body.append(node('p','Shared views and staff dropdowns are open. Your access key reveals authorised editing and management tools.'));
   const key=input(body,'Access key','','password'),feedback=node('p');key.autocomplete='off';body.append(feedback);
   body.append(button('Unlock',async()=>{try{if(!/^[a-f0-9]{64}$/.test(key.value.trim()))throw Error('Paste the full 64-character access key.');await connect(key.value.trim());key.value='';$('dialog').close();}catch(e){feedback.textContent=e.message;}},true));
  });}
@@ -36,8 +36,10 @@
  function drawAccess(){const host=$('access');host.replaceChildren();if(state.who){host.append(node('span',state.who.label+' · '+state.who.role+' ',{className:'badge'}),button('Lock access',disconnect));if(owner())host.append(button('Manage access keys',manageKeys),button('Database manager',()=>databaseManager('calendar')),button('Install private setup / update',installPrivate));}else host.append(button('Unlock personal / editing access',unlock));if(state.pending)host.append(button('Retained save draft',recovery));}
  const tabs=['Calendar','Duties','Staff','Enrichment','Admin'];
  const subviews={Calendar:['Today','This Week','This Month','Calendar','Academic Year','Date range'],Duties:['Right Now','My Duties','Expectations'],Staff:['My Week'],Enrichment:["Today's ECA",'My ECA','Choices','Clubs & Teams','Sports','Saturday Enrichment'],Admin:['Assembly','Newsletter','Handbooks']};
- function navigation(){const nav=$('navigation');nav.replaceChildren();for(const tab of tabs){const b=button(tab,()=>{state.tab=tab;state.sub=subviews[tab][0];void load();});if(tab===state.tab)b.classList.add('active');nav.append(b);}if(owner())nav.append(button('Owner workspace',openOwner));}
+ function navigation(){const nav=$('navigation');nav.replaceChildren();for(const tab of tabs){const b=button(tab,()=>{state.tab=tab;state.sub=subviews[tab][0];void load();});if(tab===state.tab)b.classList.add('active');nav.append(b);}if(owner())nav.append(button('Original page',()=>{window.MS554EditingTools=false;void load();}));}
  async function load(){
+ if(!window.MS554EditingTools){if(owner())return openOwner();return openOriginal();}
+
   if(state.busy||state.pending){recovery();return;}
   if(ownerUnsaved()){say('Finish the owner workspace save before leaving it.',true);return;}
   view.replaceChildren();actions.replaceChildren();navigation();
@@ -165,7 +167,7 @@
    body.append(node('p','The older v5.52 Calendar key still works for Calendar only until you retire it.'),button('Retire the old Calendar key',()=>modal('Retire the old Calendar connection key?',m=>{m.append(node('p','Anyone using the old shared Calendar key will lose editing access. Public reading and the new owner/staff keys will continue to work.'),button('Retire old key',async()=>{try{await rpc('ms_retire_calendar_key');$('dialog').close();say('Old Calendar connection key retired.');}catch(e){say(e.message,true);}}));})));
   });
  }catch(e){say(e.message,true);}}
- async function openOwner(){if(!owner())return;try{if(state.pending)return recovery();say('Opening owner workspace…');const base64=await rpc('ms_owner_bundle');if(!base64)throw Error('Private owner workspace not installed');const bytes=Uint8Array.from(atob(base64),c=>c.charCodeAt(0));const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));const html=await new Response(stream).text();view.replaceChildren();actions.replaceChildren();const frame=node('iframe',null,{title:'Owner workspace'});frame.srcdoc=html;view.append(frame);say('Owner workspace · full tools remain restricted to owner access');}catch(e){say(e.message,true);}}
+ async function openOwner(){if(!owner())return;if(ownerUnsaved())return say('Finish your owner save before reopening the workspace.',true);document.body.classList.add('original-mode');try{if(state.pending)return recovery();say('Opening owner workspace…');const base64=await rpc('ms_owner_bundle');if(!base64)throw Error('Private owner workspace not installed');const bytes=Uint8Array.from(atob(base64),c=>c.charCodeAt(0));const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));let html=await new Response(stream).text();html=html.replace("const VERSION = '5.53';","const VERSION = '5.54';").replace("['pastoral', 'Admin']","['pastoral', 'School Information']").replace("['duty', 'Pastoral']","['duty', 'Duties']").replace('autoSaveOn=true;','autoSaveOn=true;UI.mode="admin";render();').replace('</head>','<style>#ms550bar{display:none!important}</style></head>');view.replaceChildren();actions.replaceChildren();const frame=node('iframe',null,{title:'Owner workspace'});frame.srcdoc=html;view.append(frame);say('Owner workspace · full tools remain restricted to owner access');}catch(e){say(e.message,true);}}
  function installPrivate(){if(!owner())return;modal('Install private workspace',body=>{
   body.append(node('p','Choose PRIVATE-SETUP-v5.53.json from the private setup folder. The file goes to your existing Supabase project using your owner key. It installs the owner workspace and missing local-data records; existing records are preserved. Keep this file out of GitHub.'));
   const file=node('input',null,{type:'file',accept:'.json,application/json'}),feedback=node('p'),start=button('Install selected private setup',async()=>{
@@ -229,7 +231,13 @@
    }catch(e){report.textContent=e.message;}};
   });
  }
- $('unlock').onclick=unlock;$('refresh').onclick=()=>{state.shared=null;void load();};$('print').onclick=()=>window.print();
+ 
+ async function openOriginal(){document.body.classList.add('original-mode');if(view.querySelector('iframe[data-public-original]'))return;const frame=node('iframe',null,{title:'Mastersheet original interface'});frame.dataset.publicOriginal='true';frame.src='./original.html';view.replaceChildren(frame);actions.replaceChildren();say('');}
+ window.MS554Unlock=unlock;
+ window.MS554Tools=()=>{window.MS554EditingTools=true;document.body.classList.remove('original-mode');void load();};
+ const originalAccess=drawAccess;drawAccess=()=>{originalAccess();if(state.who&&state.who.role!=='reader'&&!owner())$('access').append(button('Editing tools',window.MS554Tools));for(const b of $('access').querySelectorAll('button'))if(b.textContent==='Unlock personal / editing access')b.textContent='Unlock';};
+
+$('unlock').onclick=unlock;$('refresh').onclick=()=>{const frame=view.querySelector('iframe[data-public-original]');if(frame){frame.contentWindow.location.reload();return;}state.shared=null;void load();};$('print').onclick=()=>window.print();
  window.addEventListener('beforeunload',e=>{if(state.pending||state.busy){e.preventDefault();e.returnValue='';}});
  (async()=>{try{state.cfg=await window.MS550Config;state.cfg.url=state.cfg.url.replace(/\/$/,'');let key='';try{key=sessionStorage.getItem('mastersheet553.access')||'';}catch{}if(key){try{await connect(key);return;}catch{try{sessionStorage.removeItem('mastersheet553.access');}catch{}state.key='';state.who=null;}}drawAccess();navigation();await load();}catch(e){say(e.message,true);}})();
 })();
