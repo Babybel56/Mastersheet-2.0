@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="calendar-validation-fix" content="2026-11-01">
+<meta name="calendar-validation-fix" content="2026-11-01-direct-cloud-save">
 <meta name="mastershoot-baked" content="v5.5 · 2026-10-25T23:33:01.610Z">
 <title>Mastersheet 2.0 · 2026–27 · Wycombe Abbey School Hangzhou</title>
 <meta name="description" content="The shape of the school year, every duty rota, and what each member of staff is carrying. One file, no internet needed.">
@@ -3765,6 +3765,53 @@ async function supaPull() {
     if (window.SPORTS && typeof window.SPORTS.refresh === 'function') window.SPORTS.refresh();
   }
   return pulled > 0;
+}
+
+// Calendar form saves are explicit: persist locally and send only the edited
+// series, independently of the background queue for the other eleven tables.
+let calendarSaveQueue = Promise.resolve();
+function persistCalendarEventRows(records) {
+  const rows = records.map(r => supaMapOut('events', r));
+  calendarSaveQueue = calendarSaveQueue.catch(() => {}).then(async () => {
+    let localSaved = false;
+    try {
+      setStatus('Saving calendar…', 'dirty');
+      await STORE.set(LS_DB, DB);
+      localSaved = true;
+      if (!supaReady()) {
+        setStatus('Calendar saved in this browser — cloud sync is off', 'dirty');
+        toast('Calendar saved in this browser only. Enable Supabase sync to save online.', 'warn', 12000);
+        return;
+      }
+      if (!rows.length) throw new Error('No event rows were produced by the editor.');
+      const headers = supaHeaders();
+      headers.Prefer = 'resolution=merge-duplicates,return=representation';
+      const response = await fetch(supaUrl('events') + '?on_conflict=id', {
+        method: 'POST', headers: headers, body: JSON.stringify(rows)
+      });
+      const body = await response.text();
+      let data = null;
+      try { data = body ? JSON.parse(body) : null; } catch (_) {}
+      if (!response.ok) {
+        const detail = data && data.message ? ((data.code ? data.code + ': ' : '') + data.message) : body.slice(0, 500);
+        throw new Error('HTTP ' + response.status + (detail ? ' — ' + detail : ''));
+      }
+      const returnedIds = new Set(Array.isArray(data) ? data.map(r => r.id) : []);
+      if (!rows.every(r => returnedIds.has(r.id))) {
+        throw new Error('Supabase did not return every saved event. Check events SELECT permission and policies.');
+      }
+      supaCfg().lastSync = new Date().toISOString();
+      saveUI();
+      setStatus('Calendar saved to Supabase');
+      toast('Calendar saved to Supabase — ' + rows.length + ' event(s) confirmed.', 'ok', 10000);
+    } catch (error) {
+      const prefix = localSaved ? 'Calendar kept in this browser; online save failed: ' : 'Calendar save failed: ';
+      setStatus('Calendar save failed', 'err');
+      toast(prefix + error.message, 'bad', 20000);
+      console.error('[calendar save]', error.message);
+    }
+  });
+  return calendarSaveQueue;
 }
 
 async function supaPush() {
@@ -8691,11 +8738,13 @@ function editEvent(e, presetDate) {
               }));
             });
           }
+          const savedSeries = DB.icEvents.filter(row => row.series === sid).map(row => deep(row));
+          queueMicrotask(() => persistCalendarEventRows(savedSeries));
         });
         const nOcc = base.rec.freq !== 'none' ? expandRecurrence(base.rec, base.date, 1).length : 1;
         toast(isNew
-          ? ('Added to ' + fmtD(base.date) + (nOcc > 1 ? (' · ' + nOcc + ' occurrences') : '') + '.')
-          : 'Event updated.', 'ok');
+          ? ('Added to ' + fmtD(base.date) + (nOcc > 1 ? (' · ' + nOcc + ' occurrences') : '') + ' — saving…')
+          : 'Event updated — saving…', 'ok');
       };
 
       if (dupes.length) {
