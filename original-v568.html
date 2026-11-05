@@ -19865,50 +19865,66 @@ function facultyMove568(db,model,source,targetId,day,start,clocks){
  }
  async function library(){if(window.PDFLib)return PDFLib;await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=new URL('vendor/pdf-lib.min.js',window.parent.location.href).href;script.onload=resolve;script.onerror=()=>reject(Error('PDF library could not load.'));document.head.append(script);});return PDFLib;}
  async function build(plan,db={},options={}){
-  await document.fonts.ready;const lib=options.preview||options.inspect?null:await library(),data=model(plan,db),pdf=lib?await lib.PDFDocument.create():null,previews=[],W=841.89,H=595.28,M=23,gap=6,scale=2.5,canvas=document.createElement('canvas');canvas.width=Math.ceil(W*scale);canvas.height=Math.ceil(H*scale);const ctx=canvas.getContext('2d');ctx.scale(scale,scale);
-  const font=(size,bold=false)=>ctx.font=(bold?'600 ':'')+size+'px Arial,"Microsoft YaHei",sans-serif';
-  const wrap=(value,width,size,bold=false)=>{font(size,bold);const lines=[];let line='';for(const char of String(value||'')){if(char==='\n'||ctx.measureText(line+char).width>width){lines.push(line);line=char==='\n'?'':char;}else line+=char;}if(line)lines.push(line);return lines.length?lines:[''];};
-  const text=(value,x,y,size=9,bold=false,colour=ink)=>{font(size,bold);ctx.fillStyle=colour;ctx.textBaseline='top';ctx.fillText(value,x,y);},rect=(x,y,w,h,fill,stroke='#cddae5',radius=3)=>{ctx.beginPath();ctx.roundRect(x,y,w,h,radius);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=.5;ctx.stroke();}};
-  const titles=wrap(data.title,W-2*M-120,19,true),top=56+titles.length*21+20,bottom=H-29,pages=[];
+  await document.fonts.ready;const data=model(plan,db),W=841.89,H=595.28,M=20,canvas=document.createElement('canvas'),resolution=2.5;canvas.width=Math.ceil(W*resolution);canvas.height=Math.ceil(H*resolution);const ctx=canvas.getContext('2d');ctx.scale(resolution,resolution);
+  const font=(n,b=false)=>ctx.font=(b?'600 ':'')+n+'px Arial,"Microsoft YaHei",sans-serif';
+  const wrap=(v,w,n,b=false)=>{font(n,b);let line='';const out=[];for(const ch of String(v||'')){if(ch==='\n'){out.push(line);line='';continue;}if(ctx.measureText(line+ch).width>w){const split=line.lastIndexOf(' ');if(split>0){out.push(line.slice(0,split));line=line.slice(split+1)+ch;}else{if(line)out.push(line);line=ch.trimStart();}}else line+=ch;}if(line)out.push(line);return out.length?out:[''];};
+  const text=(v,x,y,n=9,b=false,c=ink)=>{font(n,b);ctx.fillStyle=c;ctx.textBaseline='top';ctx.fillText(v,x,y);};
+  const rect=(x,y,w,h,c,stroke=null,r=3)=>{ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fillStyle=c;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=.5;ctx.stroke();}};
+  const mix=(hex,white)=>{const rgb=hex.slice(1).match(/../g).map(n=>parseInt(n,16));return '#'+rgb.map(n=>Math.round(n+(255-n)*white).toString(16).padStart(2,'0')).join('');};
+  const colours=['#377eaa','#44896c','#9164a4','#bd803a','#358e97','#b15f77'];
+  const areaNames=[...new Set(data.roles.map(r=>r.area))],colourFor=area=>{const fallback=colours[areaNames.indexOf(area)%colours.length],custom=data.roles.find(r=>r.area===area)?.colour;if(!/^#[a-f0-9]{6}$/i.test(custom||''))return fallback;const rgb=custom.slice(1).match(/../g).map(n=>parseInt(n,16)),light=rgb.reduce((a,n)=>a+n,0)/3;if(light<=180)return custom;const depth=255-Math.min(...rgb);if(depth<8)return fallback;const factor=Math.max(1,190/depth);return '#'+rgb.map(n=>Math.max(0,Math.round(255-(255-n)*factor)).toString(16).padStart(2,'0')).join('');};
+  const titles=wrap(data.title,W-2*M-125,18,true),top=52+titles.length*20+19,bottom=H-28,bodyH=bottom-top;
   if(top>220)throw Error('Shorten the event title before printing.');
-  function items(role,width){
-   const heading=wrap(role.name||'Duty',width-12,9,true),out=[{kind:'heading',lines:heading,h:heading.length*11+5,role:role.name}],names=role.names||[];font(8);const sizes=names.map(n=>ctx.measureText(n).width+10).sort((a,b)=>a-b),minTile=Math.max(86,Math.min(135,sizes[Math.floor(sizes.length*.8)]||100)),columns=Math.max(1,Math.floor((width-12+3)/(minTile+3))),tileW=(width-12-(columns-1)*3)/columns;
-   for(let i=0;i<names.length;i+=columns){const raw=names.slice(i,i+columns),lines=raw.map(name=>wrap(name,tileW-8,8));out.push({kind:'names',names:lines,raw,tileW,h:Math.max(...lines.map(n=>n.length))*10+4,role:role.name});}
-   const missing=Math.max(0,(Number(role.required)||0)-names.length);if(missing)out.push({kind:'gap',lines:[missing+' PLACE'+(missing===1?'':'S')+' UNFILLED'],h:15,role:role.name});return out;
-  }
-  const copyPages=list=>list.map(p=>({...p,blocks:[...p.blocks]}));
-  for(const date of data.dates.length?data.dates:[plan.date||'Date to confirm']){
-   const roles=data.roles.filter(r=>(r.date||plan.date||'Date to confirm')===date),times=[...new Set(roles.map(r=>(r.start||'TBC')+'|'+(r.end||'')))].sort();if(!times.length)times.push('TBC|');
-   let current=[{date,blocks:[]}],cursor=top;
-   for(const time of times){const relevant=roles.filter(r=>(r.start||'TBC')+'|'+(r.end||'')===time),areas=[...new Set(relevant.map(r=>r.area))];
-    function arrange(columns){const candidate=copyPages(current),width=(W-2*M-gap*(columns-1))/columns;let y=cursor,level=[],continuedBand=false,startedBand=false;
-     const band=()=>{if(y+60>bottom){candidate.push({date,blocks:[]});y=top;continuedBand=startedBand;}candidate.at(-1).blocks.push({type:'band',time,y,continued:continuedBand});startedBand=true;level=Array(columns).fill(y+25);};band();
-     for(const[area,index]of areas.map((area,index)=>[area,index])){const group=relevant.filter(r=>r.area===area),colour=/^#[a-f0-9]{6}$/i.test(group[0].colour||'')?group[0].colour:palette[index%palette.length],lines=wrap(area,width-14,10,true),areaH=lines.length*12+8,list=group.flatMap(r=>items(r,width));let continued=false;
-      while(list.length){let column=level.indexOf(Math.min(...level)),room=bottom-level[column];const extra=continued&&list[0].kind!=='heading'?wrap(list[0].role+' · continued',width-14,8,true):[],extraH=extra.length?extra.length*10+5:0,needed=areaH+extraH+list[0].h+(list[0].kind==='heading'&&list[1]?list[1].h:0)+7;
-       if(needed>bottom-top-25)throw Error('A duty title or individual name is too long to fit. Shorten it before printing.');
-       if(room<needed){candidate.push({date,blocks:[]});y=top;continuedBand=true;band();column=0;room=bottom-level[0];}
-       const chunk=[];let height=areaH+extraH+5;if(extra.length)chunk.push({kind:'heading',lines:extra,h:extraH,role:list[0].role});
-       while(list.length&&height+list[0].h<=room){if(list[0].kind==='heading'&&list[1]&&height+list[0].h+list[1].h>room&&chunk.length)break;const item=list.shift();chunk.push(item);height+=item.h;}
-       candidate.at(-1).blocks.push({type:'card',area,lines,areaH,colour,x:M+column*(width+gap),y:level[column],width,height,items:chunk,continued});level[column]+=height+gap;continued=true;
+  function layout(columns,size){
+   const gap=8,cw=(W-2*M-gap*(columns-1))/columns,pages=[],nameSize=10*size,line=12*size;
+   const rows=(role,w)=>{const heading=wrap(role.name||'Duty',w-12,10*size,true),out=[{kind:'heading',lines:heading,h:heading.length*line+5*size}],names=role.names||[];font(nameSize);const widths=names.map(n=>ctx.measureText(n).width+12).sort((a,b)=>a-b),tileMin=Math.max(80*size,Math.min(140*size,widths[Math.floor(widths.length*.85)]||100*size)),count=Math.max(1,Math.floor((w-9)/(tileMin+3))),tileW=(w-12-(count-1)*3)/count;
+    for(let i=0;i<names.length;i+=count){const raw=names.slice(i,i+count),lines=raw.map(n=>wrap(n,tileW-8,nameSize));out.push({kind:'names',raw,lines,tileW,h:Math.max(...lines.map(a=>a.length))*line+5*size});}
+    const missing=Math.max(0,(Number(role.required)||0)-names.length);if(missing)out.push({kind:'gap',lines:[missing+' PLACE'+(missing===1?'':'S')+' UNFILLED'],h:line+5});return out;};
+   const dateLabel=data.dates.length>1?data.dates[0]+' – '+data.dates.at(-1):data.dates[0]||plan.date||'Date to confirm';
+   let page={date:dateLabel,blocks:[],columns,size};pages.push(page);let col=0,y=top;
+   const next=()=>{col++;y=top;if(col===columns){col=0;page={date:dateLabel,blocks:[],columns,size};pages.push(page);}};
+   for(const date of data.dates.length?data.dates:[plan.date||'Date to confirm']){
+    const roles=data.roles.filter(r=>(r.date||plan.date||'Date to confirm')===date),times=[...new Set(roles.map(r=>(r.start||'TBC')+'|'+(r.end||'')))].sort();
+    for(const time of times){const relevant=roles.filter(r=>(r.start||'TBC')+'|'+(r.end||'')===time),areas=[...new Set(relevant.map(r=>r.area))];let best;
+     for(let inner=1;inner<=Math.min(columns===1?3:2,areas.length);inner++){
+      const aw=(cw-(inner-1)*5)/inner,levels=Array(inner).fill(0),cards=[];
+      for(const area of areas){const lines=wrap(area,aw-12,11*size,true),areaH=lines.length*13*size+7*size,items=relevant.filter(r=>r.area===area).flatMap(r=>rows(r,aw)),height=areaH+items.reduce((n,r)=>n+r.h,0)+5,slot=levels.indexOf(Math.min(...levels));cards.push({type:'card',area,lines,areaH,colour:colourFor(area),x:slot*(aw+5),y:levels[slot],width:aw,height,items});levels[slot]+=height+5;}
+      const height=Math.max(...levels);if(!best||height<best.height)best={cards,height};
+     }
+     const bandH=(data.dates.length>1?37:23)*size,needed=bandH+best.height+6;
+     if(needed<=bodyH){if(y+needed>bottom)next();const x=M+col*(cw+gap);page.blocks.push({type:'band',time,date,x,y,width:cw,height:bandH});for(const card of best.cards)page.blocks.push({...card,x:x+card.x,y:y+bandH+card.y});y+=needed;}
+     else {
+      // Very large time groups continue with repeated time and area labels.
+      for(const area of areas){const lines=wrap(area,cw-12,11*size,true),areaH=lines.length*13*size+7*size,list=relevant.filter(r=>r.area===area).flatMap(r=>rows(r,cw));let continued=false,lastRole='';
+       while(list.length){const before=list.length;let need=bandH+areaH+list[0].h+(list[0].kind==='heading'&&list[1]?list[1].h:0)+8;if(y+need>bottom)next();const x=M+col*(cw+gap);page.blocks.push({type:'band',time,date,x,y,width:cw,height:bandH,continued});y+=bandH;const items=[];let height=areaH+5;
+        if(continued&&list[0].kind!=='heading'&&lastRole){const lines=wrap(lastRole+' · continued',cw-12,10*size,true),h=lines.length*line+5*size;items.push({kind:'heading',lines,h});height+=h;}
+        while(list.length&&y+height+list[0].h<=bottom){if(list[0].kind==='heading'&&list[1]&&y+height+list[0].h+list[1].h>bottom)break;const item=list.shift();if(item.kind==='heading')lastRole=item.lines.join(' ');items.push(item);height+=item.h;}
+        if(list.length===before)throw Error('A duty title or name is too long to fit. Shorten it before printing.');
+        page.blocks.push({type:'card',area,lines,areaH,colour:colourFor(area),x,y,width:cw,height,items,continued});y+=height+6;continued=true;
+       }
       }
      }
-     const end=Math.max(...level)+3;return{pages:candidate,cursor:end,score:(candidate.length-1)*(bottom-top)+end};
     }
-    let best=null;for(let columns=1;columns<=Math.min(3,Math.max(1,areas.length));columns++){const proposal=arrange(columns);if(!best||proposal.score<best.score)best=proposal;}current=best.pages;cursor=best.cursor;
-   }pages.push(...current);
-  }
-  if(options.inspect)return{pageCount:pages.length,printedNames:pages.flatMap(p=>p.blocks.filter(b=>b.type==='card').flatMap(b=>b.items.flatMap(i=>i.raw||[]))),pages};
-  let logo=null;try{if(typeof LOGO_PRINT_URL!=='undefined'&&LOGO_PRINT_URL)logo=await new Promise(resolve=>{const image=new Image();image.crossOrigin='anonymous';image.onload=()=>resolve(image);image.onerror=()=>resolve(null);image.src=LOGO_PRINT_URL;setTimeout(()=>resolve(null),1200);});}catch{}
-  for(const[number,page]of pages.entries()){
-   ctx.fillStyle='#fff';ctx.fillRect(0,0,W,H);rect(M,15,W-2*M,3,'#b49a60',null,0);if(logo)ctx.drawImage(logo,M,25,23,29);text(data.school,M+(logo?31:0),25,8,true,muted);text('DUTY MAKER · EVENT ROTA',M+(logo?31:0),38,7,false,muted);titles.forEach((line,i)=>text(line,M,56+i*21,19,true));rect(W-M-112,25,112,25,plan.printStatus==='Published'?'#dfeee4':'#fff0d9');text(data.stamp,W-M-104,33,9,true);text(page.date,M,top-13,9,true);text(data.updated?'Updated '+data.updated+' · Hangzhou':'Review allocations before use',M+140,top-12,7,false,muted);
-   for(const block of page.blocks){if(block.type==='band'){rect(M,block.y,W-2*M,20,'#244966',null);text(block.time.replace('|',' – ').replace(/ – $/,'')+(block.continued?' · continued':''),M+8,block.y+5,10,true,'#fff');continue;}
-    rect(block.x,block.y,block.width,block.height,'#f4f7fa');rect(block.x,block.y,block.width,block.areaH,block.colour,null);block.lines.forEach((line,i)=>text(line,block.x+7,block.y+4+i*12,10,true,readable(block.colour)));let y=block.y+block.areaH+3;
-    for(const item of block.items){if(item.kind==='heading'){item.lines.forEach((line,i)=>text(line,block.x+7,y+2+i*11,9,true));}else if(item.kind==='names'){item.names.forEach((lines,i)=>{const x=block.x+6+i*(item.tileW+3);rect(x,y,item.tileW,item.h-2,'#fff','#d7e1e9',2);lines.forEach((line,j)=>text(line,x+4,y+2+j*10,8));});}else text(item.lines[0],block.x+7,y+2,8,true,'#ac3543');y+=item.h;}
    }
-   if(!data.roles.length)text('No duties recorded.',M,top+30,12);text(data.stamp+' · Use the latest revision · Generated '+new Date().toLocaleDateString('en-GB',{timeZone:'Asia/Shanghai'}),M,H-17,7,false,muted);text('Page '+(number+1)+' / '+pages.length,W-M-60,H-17,7,false,muted);
+   return {pages,size,columns};
+  }
+  const candidates=[];for(const size of[1.15,1.05,1,.95,.9,.85,.8])for(let columns=1;columns<=4;columns++)candidates.push(layout(columns,size));
+  candidates.sort((a,b)=>a.pages.length-b.pages.length||b.size-a.size||a.columns-b.columns);const chosen=candidates[0],pages=chosen.pages;
+  // Fill available height with tile padding; lettering stays undistorted.
+  for(const page of pages){for(let col=0;col<page.columns;col++){const cw=(W-2*M-8*(page.columns-1))/page.columns,x=M+col*(cw+8),blocks=page.blocks.filter(b=>b.x>=x-.1&&b.x<x+cw-.1),end=Math.max(top,...blocks.map(b=>b.y+b.height)),fill=Math.min(2.5,bodyH/Math.max(1,end-top));for(const b of blocks){b.y=top+(b.y-top)*fill;b.height*=fill;b.fill=fill;if(b.type==='card'){b.areaH*=fill;for(const item of b.items)item.h*=fill;}}}}
+  const printedNames=pages.flatMap(p=>p.blocks.filter(b=>b.type==='card').flatMap(b=>b.items.flatMap(i=>i.raw||[])));if(options.inspect)return{pageCount:pages.length,printedNames,pages,fontSize:chosen.size*10};
+  const lib=options.preview?null:await library(),pdf=lib?await lib.PDFDocument.create():null,previews=[];let logo=null;try{if(typeof LOGO_PRINT_URL!=='undefined'&&LOGO_PRINT_URL)logo=await new Promise(resolve=>{const img=new Image();img.crossOrigin='anonymous';img.onload=()=>resolve(img);img.onerror=()=>resolve(null);img.src=LOGO_PRINT_URL;setTimeout(()=>resolve(null),1200);});}catch{}
+  for(const[index,page]of pages.entries()){
+   ctx.fillStyle='#fff';ctx.fillRect(0,0,W,H);rect(M,12,W-2*M,4,'#b49a60',null,0);if(logo)ctx.drawImage(logo,M,22,21,26);text(data.school,M+(logo?29:0),22,8,true,muted);text('DUTY MAKER · EVENT ROTA',M+(logo?29:0),35,7,false,muted);titles.forEach((t,i)=>text(t,M,52+i*20,18,true));rect(W-M-112,23,112,25,plan.printStatus==='Published'?'#d9eddf':'#ffe5b6');text(data.stamp,W-M-104,31,9,true);text(page.date,M,top-14,9,true);text(data.updated?'Updated '+data.updated+' · Hangzhou':'Review allocations before use',M+135,top-13,7,false,muted);
+   const s=page.size;
+   for(const b of page.blocks){if(b.type==='band'){rect(b.x,b.y,b.width,b.height-3,'#173d5c');if(data.dates.length>1)text(b.date,b.x+7,b.y+4,9*s,false,'#d8e7f3');text(b.time.replace('|',' – ').replace(/ – $/,'')+(b.continued?' · continued':''),b.x+7,b.y+(data.dates.length>1?17*s:5),11*s,true,'#fff');continue;}
+    const colour=b.colour;rect(b.x,b.y,b.width,b.height,mix(colour,.87),mix(colour,.5));rect(b.x,b.y,b.width,b.areaH,colour);b.lines.forEach((t,i)=>text(t,b.x+6,b.y+4+i*13*s,11*s,true,readable(colour)));let y=b.y+b.areaH+3;
+    for(const item of b.items){if(item.kind==='heading')item.lines.forEach((t,i)=>text(t,b.x+6,y+2+i*12*s,10*s,true));else if(item.kind==='names')item.lines.forEach((lines,i)=>{const x=b.x+6+i*(item.tileW+3);rect(x,y,item.tileW,item.h-3,mix(colour,.67),mix(colour,.35),2);lines.forEach((t,j)=>text(t,x+4,y+Math.max(2,(item.h-lines.length*12*s)/2)+j*12*s,10*s));});else{rect(b.x+5,y,b.width-10,item.h-2,'#ffe0df');text(item.lines[0],b.x+8,y+3,9*s,true,'#9c2835');}y+=item.h;}
+   }
+   if(!data.roles.length)text('No duties recorded.',M,top+20,12);text(data.stamp+' · Use the latest revision · Generated '+new Date().toLocaleDateString('en-GB',{timeZone:'Asia/Shanghai'}),M,H-16,7,false,muted);text('Page '+(index+1)+' / '+pages.length,W-M-60,H-16,7,false,muted);
    if(options.preview)previews.push(canvas.toDataURL('image/png'));else{const png=await pdf.embedPng(canvas.toDataURL('image/png')),sheet=pdf.addPage([W,H]);sheet.drawImage(png,{x:0,y:0,width:W,height:H});}
   }
-  if(options.preview)return previews;pdf.setTitle(data.title+' · '+data.stamp);pdf.setAuthor(data.school);pdf.setSubject('Compact duty rota grouped by time and area');return pdf.save();
+  if(options.preview)return previews;pdf.setTitle(data.title+' · '+data.stamp);pdf.setAuthor(data.school);pdf.setSubject('Colour duty poster grouped by time and area');return pdf.save();
  }
 
  async function download(plan,db={}){const bytes=await build(plan,db),url=URL.createObjectURL(new Blob([bytes],{type:'application/pdf'})),link=document.createElement('a');link.href=url;link.download=(plan.name||'Duty rota').replace(/[<>:"/\\|?*\x00-\x1f]/g,'-')+' - '+(plan.printStatus||'Draft')+' v'+(plan.printRevision||'unsaved')+'.pdf';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);}
