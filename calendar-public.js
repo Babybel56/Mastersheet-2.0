@@ -14,12 +14,12 @@
       && (!q || [e.text, e.type, e.location].join(' ').toLowerCase().includes(q)));
     $('events').replaceChildren();
     if (!visible.length) $('events').append(node('div', 'No Calendar events match this view.', 'empty'));
-    visible.sort((a,b)=>String(a.date<first?first:a.date).localeCompare(String(b.date<first?first:b.date))||Number(b.date<first)-Number(a.date<first)||Number(b.sig||0)-Number(a.sig||0)||String(a.text).localeCompare(String(b.text)));for (const e of visible) {
+    visible.sort((a,b)=>String(a.date<first?first:a.date).localeCompare(String(b.date<first?first:b.date))||Number(b.sig||0)-Number(a.sig||0)||Number(b.date<first)-Number(a.date<first)||String(a.text).localeCompare(String(b.text)));for (const e of visible) {
       const row = node('article', '', 'event'+(!e.approved?' pending':'')), date = node('div', e.date + (e.end && e.end !== e.date ? ` – ${e.end}` : ''));
       const content = node('div'); content.append(node('h3', e.text));if(!e.approved)content.append(node('small','Awaiting approval'));
       content.append(node('p', ({ whole: 'Whole day', first: 'First half day', second: 'Second half day' })[e.timeMode] || e.timeText || 'Time to be confirmed'));
       if (e.location) content.append(node('p', e.location));
-      const tags = node('div'); [e.type, ...(e.labels || [])].filter(Boolean).forEach(t => tags.append(node('span', t, 'tag')));
+      const tags = node('div');if(e.ghp)tags.append(node('span','GHP','tag'));row.dataset.eventId=e.id;row.tabIndex=0;const open=()=>{const url=new URL('index.html',location.href);url.searchParams.set('event',e.id);location.assign(url.href);};row.onclick=open;row.onkeydown=ev=>{if(ev.key==='Enter')open();};Promise.resolve(window.MS550Config).then(async cfg=>{const r=await fetch(cfg.url+'/rest/v1/rpc/ms_event_attachments',{method:'POST',headers:{apikey:cfg.key,'Content-Type':'application/json'},body:JSON.stringify({p_event:e.id})});if(r.ok&&(await r.json()).some(f=>f.ready))tags.append(node('span','📎','tag'));}).catch(()=>{}); [e.type, ...(e.labels || [])].filter(Boolean).forEach(t => tags.append(node('span', t, 'tag')));
       content.append(tags); row.append(date, content); $('events').append(row);
     }
     if (lastUpdated) $('status').textContent = `${visible.length} Calendar event(s) · Updated ${lastUpdated} · School time: Asia/Shanghai`;
