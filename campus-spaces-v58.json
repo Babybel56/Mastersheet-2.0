@@ -1,0 +1,13155 @@
+[
+  {
+    "id": "A-1F-N1",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        289
+      ],
+      [
+        406,
+        289
+      ],
+      [
+        406,
+        324
+      ],
+      [
+        358,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N2",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        289
+      ],
+      [
+        457,
+        289
+      ],
+      [
+        457,
+        324
+      ],
+      [
+        408,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N3",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        289
+      ],
+      [
+        507,
+        289
+      ],
+      [
+        507,
+        324
+      ],
+      [
+        459,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N4",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        289
+      ],
+      [
+        559,
+        289
+      ],
+      [
+        559,
+        324
+      ],
+      [
+        509,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-STAIR-W",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 240.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        222
+      ],
+      [
+        379,
+        222
+      ],
+      [
+        379,
+        259
+      ],
+      [
+        356,
+        259
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-STAIR-E",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 241,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        222
+      ],
+      [
+        559,
+        222
+      ],
+      [
+        559,
+        260
+      ],
+      [
+        540,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-WC-W",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 232,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        220
+      ],
+      [
+        490,
+        220
+      ],
+      [
+        490,
+        244
+      ],
+      [
+        475,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-WC-M",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 232,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        220
+      ],
+      [
+        507,
+        220
+      ],
+      [
+        507,
+        244
+      ],
+      [
+        493,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-WC-A",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 253.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        246
+      ],
+      [
+        500,
+        246
+      ],
+      [
+        500,
+        261
+      ],
+      [
+        487,
+        261
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-STORE",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 229,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        221
+      ],
+      [
+        538,
+        221
+      ],
+      [
+        538,
+        237
+      ],
+      [
+        511,
+        237
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-CORR",
+    "building": "A",
+    "floor": 1,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 272.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        264
+      ],
+      [
+        559,
+        264
+      ],
+      [
+        559,
+        281
+      ],
+      [
+        356,
+        281
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-N-ACTIVITY",
+    "building": "A",
+    "floor": 1,
+    "name": "Project Team Activity Room",
+    "type": "Teaching",
+    "x": 435.5,
+    "y": 241,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        398,
+        222
+      ],
+      [
+        473,
+        222
+      ],
+      [
+        473,
+        260
+      ],
+      [
+        398,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M1",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        541
+      ],
+      [
+        406,
+        541
+      ],
+      [
+        406,
+        576
+      ],
+      [
+        358,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M2",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        541
+      ],
+      [
+        457,
+        541
+      ],
+      [
+        457,
+        576
+      ],
+      [
+        408,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M3",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        541
+      ],
+      [
+        507,
+        541
+      ],
+      [
+        507,
+        576
+      ],
+      [
+        459,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M4",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        541
+      ],
+      [
+        559,
+        541
+      ],
+      [
+        559,
+        576
+      ],
+      [
+        509,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-STAIR-W",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 492.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        474
+      ],
+      [
+        379,
+        474
+      ],
+      [
+        379,
+        511
+      ],
+      [
+        356,
+        511
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-STAIR-E",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 493,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        474
+      ],
+      [
+        559,
+        474
+      ],
+      [
+        559,
+        512
+      ],
+      [
+        540,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-WC-W",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 484,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        472
+      ],
+      [
+        490,
+        472
+      ],
+      [
+        490,
+        496
+      ],
+      [
+        475,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-WC-M",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 484,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        472
+      ],
+      [
+        507,
+        472
+      ],
+      [
+        507,
+        496
+      ],
+      [
+        493,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-WC-A",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 505.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        498
+      ],
+      [
+        500,
+        498
+      ],
+      [
+        500,
+        513
+      ],
+      [
+        487,
+        513
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-STORE",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 481,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        473
+      ],
+      [
+        538,
+        473
+      ],
+      [
+        538,
+        489
+      ],
+      [
+        511,
+        489
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-CORR",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 524.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        516
+      ],
+      [
+        559,
+        516
+      ],
+      [
+        559,
+        533
+      ],
+      [
+        356,
+        533
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-LANGUAGE",
+    "building": "A",
+    "floor": 1,
+    "name": "Language Lab",
+    "type": "Teaching",
+    "x": 414.5,
+    "y": 495,
+    "plan": "Language Lab",
+    "kind": "Teaching",
+    "shape": [
+      [
+        397,
+        477
+      ],
+      [
+        432,
+        477
+      ],
+      [
+        432,
+        513
+      ],
+      [
+        397,
+        513
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-M-STUDY",
+    "building": "A",
+    "floor": 1,
+    "name": "Middle Wing Study Support",
+    "type": "Teaching",
+    "x": 454,
+    "y": 495,
+    "plan": "Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        433,
+        477
+      ],
+      [
+        475,
+        477
+      ],
+      [
+        475,
+        513
+      ],
+      [
+        433,
+        513
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-W",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Lab · west",
+    "type": "Teaching",
+    "x": 410,
+    "y": 785,
+    "plan": "Science Lab · west",
+    "kind": "Teaching",
+    "shape": [
+      [
+        390,
+        753
+      ],
+      [
+        430,
+        753
+      ],
+      [
+        430,
+        817
+      ],
+      [
+        390,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCIENCE",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Lab · centre",
+    "type": "Teaching",
+    "x": 454,
+    "y": 785,
+    "plan": "Science Lab shown on the Science Block drawing",
+    "kind": "Teaching",
+    "shape": [
+      [
+        435,
+        753
+      ],
+      [
+        473,
+        753
+      ],
+      [
+        473,
+        817
+      ],
+      [
+        435,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-E",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Lab · east",
+    "type": "Teaching",
+    "x": 498.5,
+    "y": 785,
+    "plan": "Science Lab · east",
+    "kind": "Teaching",
+    "shape": [
+      [
+        478,
+        753
+      ],
+      [
+        519,
+        753
+      ],
+      [
+        519,
+        817
+      ],
+      [
+        478,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-PREP",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Preparation Room",
+    "type": "Support",
+    "x": 366.5,
+    "y": 793.5,
+    "plan": "Science Preparation Room",
+    "kind": "Support",
+    "shape": [
+      [
+        352,
+        769
+      ],
+      [
+        381,
+        769
+      ],
+      [
+        381,
+        818
+      ],
+      [
+        352,
+        818
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-STAIR",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Wing Stair",
+    "type": "Circulation",
+    "x": 550.5,
+    "y": 767.5,
+    "plan": "Science Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        543,
+        750
+      ],
+      [
+        558,
+        750
+      ],
+      [
+        558,
+        785
+      ],
+      [
+        543,
+        785
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-WC",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Wing Toilets",
+    "type": "Facilities",
+    "x": 538.5,
+    "y": 803,
+    "plan": "Science Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        523,
+        789
+      ],
+      [
+        554,
+        789
+      ],
+      [
+        554,
+        817
+      ],
+      [
+        523,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-DINING",
+    "building": "A",
+    "floor": 1,
+    "name": "Upper School Dining Room",
+    "type": "Public",
+    "x": 218.1,
+    "y": 659.2,
+    "plan": "Upper School Dining Room",
+    "kind": "Public",
+    "shape": [
+      [
+        178,
+        555
+      ],
+      [
+        229,
+        555
+      ],
+      [
+        229,
+        620
+      ],
+      [
+        220,
+        620
+      ],
+      [
+        220,
+        719
+      ],
+      [
+        246,
+        719
+      ],
+      [
+        246,
+        743
+      ],
+      [
+        177,
+        743
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-FOOD",
+    "building": "A",
+    "floor": 1,
+    "name": "Food Distribution Area",
+    "type": "Support",
+    "x": 235.5,
+    "y": 653,
+    "plan": "Food Distribution Area",
+    "kind": "Support",
+    "shape": [
+      [
+        222,
+        636
+      ],
+      [
+        249,
+        636
+      ],
+      [
+        249,
+        670
+      ],
+      [
+        222,
+        670
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-DINING-N-STAIR",
+    "building": "A",
+    "floor": 1,
+    "name": "Dining Wing North Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 598.5,
+    "plan": "Dining Wing North Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        578
+      ],
+      [
+        252,
+        578
+      ],
+      [
+        252,
+        619
+      ],
+      [
+        232,
+        619
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-DINING-S-STAIR",
+    "building": "A",
+    "floor": 1,
+    "name": "Dining Wing South Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 696.5,
+    "plan": "Dining Wing South Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        675
+      ],
+      [
+        252,
+        675
+      ],
+      [
+        252,
+        718
+      ],
+      [
+        232,
+        718
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N1",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        289
+      ],
+      [
+        406,
+        289
+      ],
+      [
+        406,
+        324
+      ],
+      [
+        358,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N2",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        289
+      ],
+      [
+        457,
+        289
+      ],
+      [
+        457,
+        324
+      ],
+      [
+        408,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N3",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        289
+      ],
+      [
+        507,
+        289
+      ],
+      [
+        507,
+        324
+      ],
+      [
+        459,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N4",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        289
+      ],
+      [
+        559,
+        289
+      ],
+      [
+        559,
+        324
+      ],
+      [
+        509,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-STAIR-W",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 240.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        222
+      ],
+      [
+        379,
+        222
+      ],
+      [
+        379,
+        259
+      ],
+      [
+        356,
+        259
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-STAIR-E",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 241,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        222
+      ],
+      [
+        559,
+        222
+      ],
+      [
+        559,
+        260
+      ],
+      [
+        540,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-WC-W",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 232,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        220
+      ],
+      [
+        490,
+        220
+      ],
+      [
+        490,
+        244
+      ],
+      [
+        475,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-WC-M",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 232,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        220
+      ],
+      [
+        507,
+        220
+      ],
+      [
+        507,
+        244
+      ],
+      [
+        493,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-WC-A",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 253.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        246
+      ],
+      [
+        500,
+        246
+      ],
+      [
+        500,
+        261
+      ],
+      [
+        487,
+        261
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-STORE",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 229,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        221
+      ],
+      [
+        538,
+        221
+      ],
+      [
+        538,
+        237
+      ],
+      [
+        511,
+        237
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-CORR",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 272.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        264
+      ],
+      [
+        559,
+        264
+      ],
+      [
+        559,
+        281
+      ],
+      [
+        356,
+        281
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-ACTIVITY",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Project Team Activity Room",
+    "type": "Teaching",
+    "x": 406.5,
+    "y": 241,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        387,
+        222
+      ],
+      [
+        426,
+        222
+      ],
+      [
+        426,
+        260
+      ],
+      [
+        387,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-BOOKS",
+    "building": "A",
+    "floor": 2,
+    "name": "North Wing Book Store",
+    "type": "Support",
+    "x": 438.5,
+    "y": 228.5,
+    "plan": "Book Store Room",
+    "kind": "Support",
+    "shape": [
+      [
+        428,
+        221
+      ],
+      [
+        449,
+        221
+      ],
+      [
+        449,
+        236
+      ],
+      [
+        428,
+        236
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-N-HEAD",
+    "building": "A",
+    "floor": 2,
+    "name": "Head of Junior School Office",
+    "type": "Office",
+    "x": 462,
+    "y": 241,
+    "plan": "Head of Junior School",
+    "kind": "Office",
+    "shape": [
+      [
+        451,
+        222
+      ],
+      [
+        473,
+        222
+      ],
+      [
+        473,
+        260
+      ],
+      [
+        451,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M1",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        541
+      ],
+      [
+        406,
+        541
+      ],
+      [
+        406,
+        576
+      ],
+      [
+        358,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M2",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        541
+      ],
+      [
+        457,
+        541
+      ],
+      [
+        457,
+        576
+      ],
+      [
+        408,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M3",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        541
+      ],
+      [
+        507,
+        541
+      ],
+      [
+        507,
+        576
+      ],
+      [
+        459,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M4",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        541
+      ],
+      [
+        559,
+        541
+      ],
+      [
+        559,
+        576
+      ],
+      [
+        509,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-STAIR-W",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 492.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        474
+      ],
+      [
+        379,
+        474
+      ],
+      [
+        379,
+        511
+      ],
+      [
+        356,
+        511
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-STAIR-E",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 493,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        474
+      ],
+      [
+        559,
+        474
+      ],
+      [
+        559,
+        512
+      ],
+      [
+        540,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-WC-W",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 484,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        472
+      ],
+      [
+        490,
+        472
+      ],
+      [
+        490,
+        496
+      ],
+      [
+        475,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-WC-M",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 484,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        472
+      ],
+      [
+        507,
+        472
+      ],
+      [
+        507,
+        496
+      ],
+      [
+        493,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-WC-A",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 505.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        498
+      ],
+      [
+        500,
+        498
+      ],
+      [
+        500,
+        513
+      ],
+      [
+        487,
+        513
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-STORE",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 481,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        473
+      ],
+      [
+        538,
+        473
+      ],
+      [
+        538,
+        489
+      ],
+      [
+        511,
+        489
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-CORR",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 524.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        516
+      ],
+      [
+        559,
+        516
+      ],
+      [
+        559,
+        533
+      ],
+      [
+        356,
+        533
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-ACTIVITY",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Project Team Activity Room",
+    "type": "Teaching",
+    "x": 406.5,
+    "y": 493,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        387,
+        474
+      ],
+      [
+        426,
+        474
+      ],
+      [
+        426,
+        512
+      ],
+      [
+        387,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-BOOKS",
+    "building": "A",
+    "floor": 2,
+    "name": "Middle Wing Book Store",
+    "type": "Support",
+    "x": 438.5,
+    "y": 480.5,
+    "plan": "Book Store Room",
+    "kind": "Support",
+    "shape": [
+      [
+        428,
+        473
+      ],
+      [
+        449,
+        473
+      ],
+      [
+        449,
+        488
+      ],
+      [
+        428,
+        488
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-M-HEAD",
+    "building": "A",
+    "floor": 2,
+    "name": "Head of Senior School Office",
+    "type": "Office",
+    "x": 462,
+    "y": 493,
+    "plan": "Head of Senior School",
+    "kind": "Office",
+    "shape": [
+      [
+        451,
+        474
+      ],
+      [
+        473,
+        474
+      ],
+      [
+        473,
+        512
+      ],
+      [
+        451,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCI-W",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Lab · west",
+    "type": "Teaching",
+    "x": 410,
+    "y": 785,
+    "plan": "Science Lab · west",
+    "kind": "Teaching",
+    "shape": [
+      [
+        390,
+        753
+      ],
+      [
+        430,
+        753
+      ],
+      [
+        430,
+        817
+      ],
+      [
+        390,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCIENCE",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Lab · centre",
+    "type": "Teaching",
+    "x": 454,
+    "y": 785,
+    "plan": "Science Lab shown on the Science Block drawing",
+    "kind": "Teaching",
+    "shape": [
+      [
+        435,
+        753
+      ],
+      [
+        473,
+        753
+      ],
+      [
+        473,
+        817
+      ],
+      [
+        435,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCI-E",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Lab · east",
+    "type": "Teaching",
+    "x": 498.5,
+    "y": 785,
+    "plan": "Science Lab · east",
+    "kind": "Teaching",
+    "shape": [
+      [
+        478,
+        753
+      ],
+      [
+        519,
+        753
+      ],
+      [
+        519,
+        817
+      ],
+      [
+        478,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCI-PREP",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Preparation Room",
+    "type": "Support",
+    "x": 366.5,
+    "y": 793.5,
+    "plan": "Science Preparation Room",
+    "kind": "Support",
+    "shape": [
+      [
+        352,
+        769
+      ],
+      [
+        381,
+        769
+      ],
+      [
+        381,
+        818
+      ],
+      [
+        352,
+        818
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCI-STAIR",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Wing Stair",
+    "type": "Circulation",
+    "x": 550.5,
+    "y": 767.5,
+    "plan": "Science Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        543,
+        750
+      ],
+      [
+        558,
+        750
+      ],
+      [
+        558,
+        785
+      ],
+      [
+        543,
+        785
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-SCI-WC",
+    "building": "A",
+    "floor": 2,
+    "name": "Science Wing Toilets",
+    "type": "Facilities",
+    "x": 538.5,
+    "y": 803,
+    "plan": "Science Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        523,
+        789
+      ],
+      [
+        554,
+        789
+      ],
+      [
+        554,
+        817
+      ],
+      [
+        523,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-DINING",
+    "building": "A",
+    "floor": 2,
+    "name": "Upper School Dining Room",
+    "type": "Public",
+    "x": 218.1,
+    "y": 659.2,
+    "plan": "Upper School Dining Room",
+    "kind": "Public",
+    "shape": [
+      [
+        178,
+        555
+      ],
+      [
+        229,
+        555
+      ],
+      [
+        229,
+        620
+      ],
+      [
+        220,
+        620
+      ],
+      [
+        220,
+        719
+      ],
+      [
+        246,
+        719
+      ],
+      [
+        246,
+        743
+      ],
+      [
+        177,
+        743
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-FOOD",
+    "building": "A",
+    "floor": 2,
+    "name": "Food Distribution Area",
+    "type": "Support",
+    "x": 235.5,
+    "y": 653,
+    "plan": "Food Distribution Area",
+    "kind": "Support",
+    "shape": [
+      [
+        222,
+        636
+      ],
+      [
+        249,
+        636
+      ],
+      [
+        249,
+        670
+      ],
+      [
+        222,
+        670
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-DINING-N-STAIR",
+    "building": "A",
+    "floor": 2,
+    "name": "Dining Wing North Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 598.5,
+    "plan": "Dining Wing North Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        578
+      ],
+      [
+        252,
+        578
+      ],
+      [
+        252,
+        619
+      ],
+      [
+        232,
+        619
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-DINING-S-STAIR",
+    "building": "A",
+    "floor": 2,
+    "name": "Dining Wing South Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 696.5,
+    "plan": "Dining Wing South Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        675
+      ],
+      [
+        252,
+        675
+      ],
+      [
+        252,
+        718
+      ],
+      [
+        232,
+        718
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N1",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        289
+      ],
+      [
+        406,
+        289
+      ],
+      [
+        406,
+        324
+      ],
+      [
+        358,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N2",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        289
+      ],
+      [
+        457,
+        289
+      ],
+      [
+        457,
+        324
+      ],
+      [
+        408,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N3",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        289
+      ],
+      [
+        507,
+        289
+      ],
+      [
+        507,
+        324
+      ],
+      [
+        459,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N4",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        289
+      ],
+      [
+        559,
+        289
+      ],
+      [
+        559,
+        324
+      ],
+      [
+        509,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-STAIR-W",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 240.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        222
+      ],
+      [
+        379,
+        222
+      ],
+      [
+        379,
+        259
+      ],
+      [
+        356,
+        259
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-STAIR-E",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 241,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        222
+      ],
+      [
+        559,
+        222
+      ],
+      [
+        559,
+        260
+      ],
+      [
+        540,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-WC-W",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 232,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        220
+      ],
+      [
+        490,
+        220
+      ],
+      [
+        490,
+        244
+      ],
+      [
+        475,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-WC-M",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 232,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        220
+      ],
+      [
+        507,
+        220
+      ],
+      [
+        507,
+        244
+      ],
+      [
+        493,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-WC-A",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 253.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        246
+      ],
+      [
+        500,
+        246
+      ],
+      [
+        500,
+        261
+      ],
+      [
+        487,
+        261
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-STORE",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 229,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        221
+      ],
+      [
+        538,
+        221
+      ],
+      [
+        538,
+        237
+      ],
+      [
+        511,
+        237
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-CORR",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 272.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        264
+      ],
+      [
+        559,
+        264
+      ],
+      [
+        559,
+        281
+      ],
+      [
+        356,
+        281
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-ACTIVITY",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Project Team Activity Room",
+    "type": "Teaching",
+    "x": 409,
+    "y": 241,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        388,
+        222
+      ],
+      [
+        430,
+        222
+      ],
+      [
+        430,
+        260
+      ],
+      [
+        388,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-N-STUDY",
+    "building": "A",
+    "floor": 3,
+    "name": "North Wing Study Support",
+    "type": "Teaching",
+    "x": 453.5,
+    "y": 241,
+    "plan": "Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        433,
+        222
+      ],
+      [
+        474,
+        222
+      ],
+      [
+        474,
+        260
+      ],
+      [
+        433,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M1",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        541
+      ],
+      [
+        406,
+        541
+      ],
+      [
+        406,
+        576
+      ],
+      [
+        358,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M2",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        541
+      ],
+      [
+        457,
+        541
+      ],
+      [
+        457,
+        576
+      ],
+      [
+        408,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M3",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        541
+      ],
+      [
+        507,
+        541
+      ],
+      [
+        507,
+        576
+      ],
+      [
+        459,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M4",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 558.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        541
+      ],
+      [
+        559,
+        541
+      ],
+      [
+        559,
+        576
+      ],
+      [
+        509,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-STAIR-W",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 492.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        474
+      ],
+      [
+        379,
+        474
+      ],
+      [
+        379,
+        511
+      ],
+      [
+        356,
+        511
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-STAIR-E",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 493,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        474
+      ],
+      [
+        559,
+        474
+      ],
+      [
+        559,
+        512
+      ],
+      [
+        540,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-WC-W",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 484,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        472
+      ],
+      [
+        490,
+        472
+      ],
+      [
+        490,
+        496
+      ],
+      [
+        475,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-WC-M",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 484,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        472
+      ],
+      [
+        507,
+        472
+      ],
+      [
+        507,
+        496
+      ],
+      [
+        493,
+        496
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-WC-A",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 505.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        498
+      ],
+      [
+        500,
+        498
+      ],
+      [
+        500,
+        513
+      ],
+      [
+        487,
+        513
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-STORE",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 481,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        473
+      ],
+      [
+        538,
+        473
+      ],
+      [
+        538,
+        489
+      ],
+      [
+        511,
+        489
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-CORR",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 524.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        516
+      ],
+      [
+        559,
+        516
+      ],
+      [
+        559,
+        533
+      ],
+      [
+        356,
+        533
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-ACTIVITY",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Project Team Activity Room",
+    "type": "Teaching",
+    "x": 409,
+    "y": 493,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        388,
+        474
+      ],
+      [
+        430,
+        474
+      ],
+      [
+        430,
+        512
+      ],
+      [
+        388,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-M-STUDY",
+    "building": "A",
+    "floor": 3,
+    "name": "Middle Wing Study Support",
+    "type": "Teaching",
+    "x": 453.5,
+    "y": 493,
+    "plan": "Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        433,
+        474
+      ],
+      [
+        474,
+        474
+      ],
+      [
+        474,
+        512
+      ],
+      [
+        433,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCI-W",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Lab · west",
+    "type": "Teaching",
+    "x": 410,
+    "y": 785,
+    "plan": "Science Lab · west",
+    "kind": "Teaching",
+    "shape": [
+      [
+        390,
+        753
+      ],
+      [
+        430,
+        753
+      ],
+      [
+        430,
+        817
+      ],
+      [
+        390,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCIENCE",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Lab · centre",
+    "type": "Teaching",
+    "x": 454,
+    "y": 785,
+    "plan": "Science Lab · centre",
+    "kind": "Teaching",
+    "shape": [
+      [
+        435,
+        753
+      ],
+      [
+        473,
+        753
+      ],
+      [
+        473,
+        817
+      ],
+      [
+        435,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCI-E",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Lab · east",
+    "type": "Teaching",
+    "x": 498.5,
+    "y": 785,
+    "plan": "Science Lab · east",
+    "kind": "Teaching",
+    "shape": [
+      [
+        478,
+        753
+      ],
+      [
+        519,
+        753
+      ],
+      [
+        519,
+        817
+      ],
+      [
+        478,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCI-PREP",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Preparation Room",
+    "type": "Support",
+    "x": 366.5,
+    "y": 793.5,
+    "plan": "Science Preparation Room",
+    "kind": "Support",
+    "shape": [
+      [
+        352,
+        769
+      ],
+      [
+        381,
+        769
+      ],
+      [
+        381,
+        818
+      ],
+      [
+        352,
+        818
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCI-STAIR",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Wing Stair",
+    "type": "Circulation",
+    "x": 550.5,
+    "y": 767.5,
+    "plan": "Science Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        543,
+        750
+      ],
+      [
+        558,
+        750
+      ],
+      [
+        558,
+        785
+      ],
+      [
+        543,
+        785
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-SCI-WC",
+    "building": "A",
+    "floor": 3,
+    "name": "Science Wing Toilets",
+    "type": "Facilities",
+    "x": 538.5,
+    "y": 803,
+    "plan": "Science Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        523,
+        789
+      ],
+      [
+        554,
+        789
+      ],
+      [
+        554,
+        817
+      ],
+      [
+        523,
+        817
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-DINING",
+    "building": "A",
+    "floor": 3,
+    "name": "Upper School Dining Room",
+    "type": "Public",
+    "x": 218.1,
+    "y": 659.2,
+    "plan": "Upper School Dining Room",
+    "kind": "Public",
+    "shape": [
+      [
+        178,
+        555
+      ],
+      [
+        229,
+        555
+      ],
+      [
+        229,
+        620
+      ],
+      [
+        220,
+        620
+      ],
+      [
+        220,
+        719
+      ],
+      [
+        246,
+        719
+      ],
+      [
+        246,
+        743
+      ],
+      [
+        177,
+        743
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-FOOD",
+    "building": "A",
+    "floor": 3,
+    "name": "Food Distribution Area",
+    "type": "Support",
+    "x": 235.5,
+    "y": 653,
+    "plan": "Food Distribution Area",
+    "kind": "Support",
+    "shape": [
+      [
+        222,
+        636
+      ],
+      [
+        249,
+        636
+      ],
+      [
+        249,
+        670
+      ],
+      [
+        222,
+        670
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-DINING-N-STAIR",
+    "building": "A",
+    "floor": 3,
+    "name": "Dining Wing North Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 598.5,
+    "plan": "Dining Wing North Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        578
+      ],
+      [
+        252,
+        578
+      ],
+      [
+        252,
+        619
+      ],
+      [
+        232,
+        619
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-DINING-S-STAIR",
+    "building": "A",
+    "floor": 3,
+    "name": "Dining Wing South Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 696.5,
+    "plan": "Dining Wing South Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        232,
+        675
+      ],
+      [
+        252,
+        675
+      ],
+      [
+        252,
+        718
+      ],
+      [
+        232,
+        718
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N1",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 382,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        289
+      ],
+      [
+        406,
+        289
+      ],
+      [
+        406,
+        324
+      ],
+      [
+        358,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N2",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 432.5,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        408,
+        289
+      ],
+      [
+        457,
+        289
+      ],
+      [
+        457,
+        324
+      ],
+      [
+        408,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N3",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 483,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        459,
+        289
+      ],
+      [
+        507,
+        289
+      ],
+      [
+        507,
+        324
+      ],
+      [
+        459,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N4",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 534,
+    "y": 306.5,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        509,
+        289
+      ],
+      [
+        559,
+        289
+      ],
+      [
+        559,
+        324
+      ],
+      [
+        509,
+        324
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-STAIR-W",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing West Stair",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 240.5,
+    "plan": "West Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        222
+      ],
+      [
+        379,
+        222
+      ],
+      [
+        379,
+        259
+      ],
+      [
+        356,
+        259
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-STAIR-E",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing East Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 241,
+    "plan": "East Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        540,
+        222
+      ],
+      [
+        559,
+        222
+      ],
+      [
+        559,
+        260
+      ],
+      [
+        540,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-WC-W",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 482.5,
+    "y": 232,
+    "plan": "Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        475,
+        220
+      ],
+      [
+        490,
+        220
+      ],
+      [
+        490,
+        244
+      ],
+      [
+        475,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-WC-M",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 500,
+    "y": 232,
+    "plan": "Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        493,
+        220
+      ],
+      [
+        507,
+        220
+      ],
+      [
+        507,
+        244
+      ],
+      [
+        493,
+        244
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-WC-A",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Accessible WC",
+    "type": "Facilities",
+    "x": 493.5,
+    "y": 253.5,
+    "plan": "Accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        487,
+        246
+      ],
+      [
+        500,
+        246
+      ],
+      [
+        500,
+        261
+      ],
+      [
+        487,
+        261
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-STORE",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Storage",
+    "type": "Support",
+    "x": 524.5,
+    "y": 229,
+    "plan": "Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        511,
+        221
+      ],
+      [
+        538,
+        221
+      ],
+      [
+        538,
+        237
+      ],
+      [
+        511,
+        237
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-CORR",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 457.5,
+    "y": 272.5,
+    "plan": "Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        356,
+        264
+      ],
+      [
+        559,
+        264
+      ],
+      [
+        559,
+        281
+      ],
+      [
+        356,
+        281
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-ACTIVITY",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Project Team Activity Room",
+    "type": "Teaching",
+    "x": 409,
+    "y": 241,
+    "plan": "Project Team Activity Room",
+    "kind": "Teaching",
+    "shape": [
+      [
+        388,
+        222
+      ],
+      [
+        430,
+        222
+      ],
+      [
+        430,
+        260
+      ],
+      [
+        388,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-N-STUDY",
+    "building": "A",
+    "floor": 4,
+    "name": "North Wing Study Support",
+    "type": "Teaching",
+    "x": 453.5,
+    "y": 241,
+    "plan": "Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        433,
+        222
+      ],
+      [
+        474,
+        222
+      ],
+      [
+        474,
+        260
+      ],
+      [
+        433,
+        260
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-SCI-STAFF",
+    "building": "A",
+    "floor": 4,
+    "name": "Staff Working Room",
+    "type": "Office",
+    "x": 451,
+    "y": 786.8,
+    "plan": "Staff Working Room",
+    "kind": "Office",
+    "shape": [
+      [
+        393,
+        754
+      ],
+      [
+        510,
+        754
+      ],
+      [
+        510,
+        786
+      ],
+      [
+        511,
+        786
+      ],
+      [
+        511,
+        821
+      ],
+      [
+        390,
+        821
+      ],
+      [
+        390,
+        786
+      ],
+      [
+        393,
+        786
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-SCI-MEETING",
+    "building": "A",
+    "floor": 4,
+    "name": "Staff Meeting Room",
+    "type": "Office",
+    "x": 364.5,
+    "y": 804,
+    "plan": "Staff Meeting Room",
+    "kind": "Office",
+    "shape": [
+      [
+        350,
+        788
+      ],
+      [
+        379,
+        788
+      ],
+      [
+        379,
+        820
+      ],
+      [
+        350,
+        820
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-SCI-STAIR",
+    "building": "A",
+    "floor": 4,
+    "name": "Science Wing Stair",
+    "type": "Circulation",
+    "x": 549.5,
+    "y": 768,
+    "plan": "Science Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        541,
+        751
+      ],
+      [
+        558,
+        751
+      ],
+      [
+        558,
+        785
+      ],
+      [
+        541,
+        785
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-SCI-WC-M",
+    "building": "A",
+    "floor": 4,
+    "name": "Science Wing Men’s WC",
+    "type": "Facilities",
+    "x": 523,
+    "y": 806,
+    "plan": "Science Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        514,
+        793
+      ],
+      [
+        532,
+        793
+      ],
+      [
+        532,
+        819
+      ],
+      [
+        514,
+        819
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-SCI-WC-W",
+    "building": "A",
+    "floor": 4,
+    "name": "Science Wing Women’s WC",
+    "type": "Facilities",
+    "x": 546,
+    "y": 806,
+    "plan": "Science Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        535,
+        793
+      ],
+      [
+        557,
+        793
+      ],
+      [
+        557,
+        819
+      ],
+      [
+        535,
+        819
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-MID-ROOF",
+    "building": "A",
+    "floor": 4,
+    "name": "Middle Wing Roof",
+    "type": "Other",
+    "x": 447,
+    "y": 524,
+    "plan": "Middle Wing Roof",
+    "kind": "Void",
+    "shape": [
+      [
+        357,
+        474
+      ],
+      [
+        537,
+        474
+      ],
+      [
+        537,
+        574
+      ],
+      [
+        357,
+        574
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-MID-STAIR",
+    "building": "A",
+    "floor": 4,
+    "name": "Middle Wing Stair",
+    "type": "Circulation",
+    "x": 548.5,
+    "y": 493.5,
+    "plan": "Middle Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        539,
+        475
+      ],
+      [
+        558,
+        475
+      ],
+      [
+        558,
+        512
+      ],
+      [
+        539,
+        512
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-DINING-VOID",
+    "building": "A",
+    "floor": 4,
+    "name": "Opening over Dining Courtyard",
+    "type": "Other",
+    "x": 289,
+    "y": 649.5,
+    "plan": "Opening over Dining Courtyard",
+    "kind": "Void",
+    "shape": [
+      [
+        256,
+        582
+      ],
+      [
+        322,
+        582
+      ],
+      [
+        322,
+        717
+      ],
+      [
+        256,
+        717
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-DINING-STAIR",
+    "building": "A",
+    "floor": 4,
+    "name": "Dining Wing Stair",
+    "type": "Circulation",
+    "x": 242,
+    "y": 698,
+    "plan": "Dining Wing Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        233,
+        677
+      ],
+      [
+        251,
+        677
+      ],
+      [
+        251,
+        719
+      ],
+      [
+        233,
+        719
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-MTG1",
+    "building": "A",
+    "floor": 1,
+    "name": "Meeting Room 1",
+    "type": "Office",
+    "x": 355.5,
+    "y": 109,
+    "plan": "Meeting Room 1",
+    "kind": "Office",
+    "shape": [
+      [
+        327,
+        95
+      ],
+      [
+        384,
+        95
+      ],
+      [
+        384,
+        123
+      ],
+      [
+        327,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-ADMISSION",
+    "building": "A",
+    "floor": 1,
+    "name": "Admissions",
+    "type": "Office",
+    "x": 415.5,
+    "y": 109,
+    "plan": "Admissions",
+    "kind": "Office",
+    "shape": [
+      [
+        389,
+        95
+      ],
+      [
+        442,
+        95
+      ],
+      [
+        442,
+        123
+      ],
+      [
+        389,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-MTG2",
+    "building": "A",
+    "floor": 1,
+    "name": "Meeting Room 2",
+    "type": "Office",
+    "x": 367,
+    "y": 156,
+    "plan": "Meeting Room 2",
+    "kind": "Office",
+    "shape": [
+      [
+        352,
+        140
+      ],
+      [
+        382,
+        140
+      ],
+      [
+        382,
+        172
+      ],
+      [
+        352,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-FINANCE",
+    "building": "A",
+    "floor": 1,
+    "name": "Finance Office",
+    "type": "Office",
+    "x": 431.5,
+    "y": 152.5,
+    "plan": "Finance Office",
+    "kind": "Office",
+    "shape": [
+      [
+        421,
+        133
+      ],
+      [
+        442,
+        133
+      ],
+      [
+        442,
+        172
+      ],
+      [
+        421,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-STORE",
+    "building": "A",
+    "floor": 1,
+    "name": "Administration Store",
+    "type": "Support",
+    "x": 411,
+    "y": 167,
+    "plan": "Administration Store",
+    "kind": "Support",
+    "shape": [
+      [
+        403,
+        161
+      ],
+      [
+        419,
+        161
+      ],
+      [
+        419,
+        173
+      ],
+      [
+        403,
+        173
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-ADM-STAIR",
+    "building": "A",
+    "floor": 1,
+    "name": "Administration Stair",
+    "type": "Circulation",
+    "x": 393,
+    "y": 155,
+    "plan": "Administration Stair",
+    "kind": "Circulation",
+    "shape": [
+      [
+        385,
+        138
+      ],
+      [
+        401,
+        138
+      ],
+      [
+        401,
+        172
+      ],
+      [
+        385,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-BREAK",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Breakout",
+    "type": "Teaching",
+    "x": 323,
+    "y": 767.5,
+    "plan": "Science Breakout",
+    "kind": "Teaching",
+    "shape": [
+      [
+        296,
+        751
+      ],
+      [
+        350,
+        751
+      ],
+      [
+        350,
+        784
+      ],
+      [
+        296,
+        784
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-TEAM",
+    "building": "A",
+    "floor": 1,
+    "name": "Science Team Room",
+    "type": "Office",
+    "x": 310,
+    "y": 805.5,
+    "plan": "Science Team Room",
+    "kind": "Office",
+    "shape": [
+      [
+        295,
+        790
+      ],
+      [
+        325,
+        790
+      ],
+      [
+        325,
+        821
+      ],
+      [
+        295,
+        821
+      ]
+    ]
+  },
+  {
+    "id": "A-1F-SCI-CHEM",
+    "building": "A",
+    "floor": 1,
+    "name": "Chemical Store",
+    "type": "Services",
+    "x": 340.5,
+    "y": 805,
+    "plan": "Chemical Store",
+    "kind": "Services",
+    "shape": [
+      [
+        330,
+        789
+      ],
+      [
+        351,
+        789
+      ],
+      [
+        351,
+        821
+      ],
+      [
+        330,
+        821
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-ADMISSIONS",
+    "building": "A",
+    "floor": 2,
+    "name": "Admissions Office",
+    "type": "Office",
+    "x": 338.5,
+    "y": 108.5,
+    "plan": "Admissions Office",
+    "kind": "Office",
+    "shape": [
+      [
+        327,
+        94
+      ],
+      [
+        350,
+        94
+      ],
+      [
+        350,
+        123
+      ],
+      [
+        327,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-SERVICE",
+    "building": "A",
+    "floor": 2,
+    "name": "Administration Service Area",
+    "type": "Public",
+    "x": 373,
+    "y": 108.5,
+    "plan": "Administration Service Area",
+    "kind": "Public",
+    "shape": [
+      [
+        352,
+        94
+      ],
+      [
+        394,
+        94
+      ],
+      [
+        394,
+        123
+      ],
+      [
+        352,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-BOARD",
+    "building": "A",
+    "floor": 2,
+    "name": "Board Room",
+    "type": "Office",
+    "x": 420,
+    "y": 108.5,
+    "plan": "Board Room",
+    "kind": "Office",
+    "shape": [
+      [
+        398,
+        94
+      ],
+      [
+        442,
+        94
+      ],
+      [
+        442,
+        123
+      ],
+      [
+        398,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-HEAD",
+    "building": "A",
+    "floor": 2,
+    "name": "Head of School Office",
+    "type": "Office",
+    "x": 371.5,
+    "y": 155,
+    "plan": "Head of School Office",
+    "kind": "Office",
+    "shape": [
+      [
+        355,
+        138
+      ],
+      [
+        388,
+        138
+      ],
+      [
+        388,
+        172
+      ],
+      [
+        355,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-MEETING",
+    "building": "A",
+    "floor": 2,
+    "name": "Meeting Room",
+    "type": "Office",
+    "x": 431,
+    "y": 155.5,
+    "plan": "Meeting Room",
+    "kind": "Office",
+    "shape": [
+      [
+        420,
+        139
+      ],
+      [
+        442,
+        139
+      ],
+      [
+        442,
+        172
+      ],
+      [
+        420,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-2F-ADM-STORE",
+    "building": "A",
+    "floor": 2,
+    "name": "Administration Store",
+    "type": "Support",
+    "x": 411,
+    "y": 166.5,
+    "plan": "Administration Store",
+    "kind": "Support",
+    "shape": [
+      [
+        404,
+        160
+      ],
+      [
+        418,
+        160
+      ],
+      [
+        418,
+        173
+      ],
+      [
+        404,
+        173
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-ADM-HR1",
+    "building": "A",
+    "floor": 3,
+    "name": "HR Office 1",
+    "type": "Office",
+    "x": 338,
+    "y": 108.5,
+    "plan": "HR Office 1",
+    "kind": "Office",
+    "shape": [
+      [
+        327,
+        94
+      ],
+      [
+        349,
+        94
+      ],
+      [
+        349,
+        123
+      ],
+      [
+        327,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-ADM-HR2",
+    "building": "A",
+    "floor": 3,
+    "name": "HR Office 2",
+    "type": "Office",
+    "x": 365.5,
+    "y": 108.5,
+    "plan": "HR Office 2",
+    "kind": "Office",
+    "shape": [
+      [
+        351,
+        94
+      ],
+      [
+        380,
+        94
+      ],
+      [
+        380,
+        123
+      ],
+      [
+        351,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-ADM-COMMS",
+    "building": "A",
+    "floor": 3,
+    "name": "Marketing, Admissions & Communications Office",
+    "type": "Office",
+    "x": 412,
+    "y": 108.5,
+    "plan": "Marketing, Admissions & Communications Office",
+    "kind": "Office",
+    "shape": [
+      [
+        382,
+        94
+      ],
+      [
+        442,
+        94
+      ],
+      [
+        442,
+        123
+      ],
+      [
+        382,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-ADM-PASTORAL",
+    "building": "A",
+    "floor": 3,
+    "name": "Head of Pastoral Care Office",
+    "type": "Office",
+    "x": 368,
+    "y": 155.5,
+    "plan": "Head of Pastoral Care Office",
+    "kind": "Office",
+    "shape": [
+      [
+        354,
+        139
+      ],
+      [
+        382,
+        139
+      ],
+      [
+        382,
+        172
+      ],
+      [
+        354,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-3F-ADM-STORE",
+    "building": "A",
+    "floor": 3,
+    "name": "Document Store",
+    "type": "Support",
+    "x": 411,
+    "y": 166,
+    "plan": "Document Store",
+    "kind": "Support",
+    "shape": [
+      [
+        402,
+        160
+      ],
+      [
+        420,
+        160
+      ],
+      [
+        420,
+        172
+      ],
+      [
+        402,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-ADM-ROOF",
+    "building": "A",
+    "floor": 4,
+    "name": "Administration Roof",
+    "type": "Other",
+    "x": 376.5,
+    "y": 128.8,
+    "plan": "Administration Roof",
+    "kind": "Void",
+    "shape": [
+      [
+        328,
+        94
+      ],
+      [
+        442,
+        94
+      ],
+      [
+        442,
+        127
+      ],
+      [
+        379,
+        127
+      ],
+      [
+        379,
+        171
+      ],
+      [
+        357,
+        171
+      ],
+      [
+        357,
+        123
+      ],
+      [
+        328,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "A-4F-ADM-LIFT",
+    "building": "A",
+    "floor": 4,
+    "name": "Cargo Lift",
+    "type": "Services",
+    "x": 390,
+    "y": 150.5,
+    "plan": "Cargo Lift",
+    "kind": "Services",
+    "shape": [
+      [
+        382,
+        130
+      ],
+      [
+        398,
+        130
+      ],
+      [
+        398,
+        171
+      ],
+      [
+        382,
+        171
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M1",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 233,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        209,
+        424
+      ],
+      [
+        257,
+        424
+      ],
+      [
+        257,
+        462
+      ],
+      [
+        209,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M2",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 283,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        259,
+        424
+      ],
+      [
+        307,
+        424
+      ],
+      [
+        307,
+        462
+      ],
+      [
+        259,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M3",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 332.5,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        309,
+        424
+      ],
+      [
+        356,
+        424
+      ],
+      [
+        356,
+        462
+      ],
+      [
+        309,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M4",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 384,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        424
+      ],
+      [
+        410,
+        424
+      ],
+      [
+        410,
+        462
+      ],
+      [
+        358,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-STORAGE",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Store",
+    "type": "Support",
+    "x": 220.5,
+    "y": 375.5,
+    "plan": "Middle Wing Store",
+    "kind": "Support",
+    "shape": [
+      [
+        209,
+        356
+      ],
+      [
+        232,
+        356
+      ],
+      [
+        232,
+        395
+      ],
+      [
+        209,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-STAIR-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Stair 18",
+    "type": "Circulation",
+    "x": 241,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 18",
+    "kind": "Circulation",
+    "shape": [
+      [
+        233,
+        356
+      ],
+      [
+        249,
+        356
+      ],
+      [
+        249,
+        395
+      ],
+      [
+        233,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-STUDY",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Study Support",
+    "type": "Teaching",
+    "x": 282,
+    "y": 376,
+    "plan": "Middle Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        259,
+        357
+      ],
+      [
+        305,
+        357
+      ],
+      [
+        305,
+        395
+      ],
+      [
+        259,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-WC-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 363.5,
+    "y": 373.5,
+    "plan": "Middle Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        358,
+        357
+      ],
+      [
+        369,
+        357
+      ],
+      [
+        369,
+        390
+      ],
+      [
+        358,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-WC-M",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 377.5,
+    "y": 373.5,
+    "plan": "Middle Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        371,
+        357
+      ],
+      [
+        384,
+        357
+      ],
+      [
+        384,
+        390
+      ],
+      [
+        371,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-STAIR-E",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Stair 19",
+    "type": "Circulation",
+    "x": 398.5,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 19",
+    "kind": "Circulation",
+    "shape": [
+      [
+        386,
+        356
+      ],
+      [
+        411,
+        356
+      ],
+      [
+        411,
+        395
+      ],
+      [
+        386,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-CORR",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 309.5,
+    "y": 409,
+    "plan": "Middle Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        209,
+        399
+      ],
+      [
+        410,
+        399
+      ],
+      [
+        410,
+        419
+      ],
+      [
+        209,
+        419
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-E-RECOVERY",
+    "building": "B",
+    "floor": 1,
+    "name": "Recovery Room",
+    "type": "Support",
+    "x": 531.5,
+    "y": 378.5,
+    "plan": "Recovery Room",
+    "kind": "Support",
+    "shape": [
+      [
+        519,
+        370
+      ],
+      [
+        544,
+        370
+      ],
+      [
+        544,
+        387
+      ],
+      [
+        519,
+        387
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-E-STAIR-N",
+    "building": "B",
+    "floor": 1,
+    "name": "East Wing Stair 20",
+    "type": "Circulation",
+    "x": 516,
+    "y": 316.5,
+    "plan": "East Wing Stair 20",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        301
+      ],
+      [
+        526,
+        301
+      ],
+      [
+        526,
+        332
+      ],
+      [
+        506,
+        332
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-E-STAIR-S",
+    "building": "B",
+    "floor": 1,
+    "name": "East Wing Stair 21",
+    "type": "Circulation",
+    "x": 516,
+    "y": 407.5,
+    "plan": "East Wing Stair 21",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        391
+      ],
+      [
+        526,
+        391
+      ],
+      [
+        526,
+        424
+      ],
+      [
+        506,
+        424
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-E-FOOD",
+    "building": "B",
+    "floor": 1,
+    "name": "Food Distribution",
+    "type": "Support",
+    "x": 529.5,
+    "y": 353.5,
+    "plan": "Food Distribution",
+    "kind": "Support",
+    "shape": [
+      [
+        514,
+        338
+      ],
+      [
+        545,
+        338
+      ],
+      [
+        545,
+        369
+      ],
+      [
+        514,
+        369
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-CANTEEN",
+    "building": "B",
+    "floor": 1,
+    "name": "Lower School Canteen",
+    "type": "Public",
+    "x": 569.5,
+    "y": 367,
+    "plan": "Lower School Canteen",
+    "kind": "Public",
+    "shape": [
+      [
+        549,
+        289
+      ],
+      [
+        590,
+        289
+      ],
+      [
+        590,
+        445
+      ],
+      [
+        549,
+        445
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-M-PLAY",
+    "building": "B",
+    "floor": 1,
+    "name": "Middle Wing Creative Play",
+    "type": "Teaching",
+    "x": 332.5,
+    "y": 375.5,
+    "plan": "Middle Wing Creative Play",
+    "kind": "Teaching",
+    "shape": [
+      [
+        310,
+        356
+      ],
+      [
+        355,
+        356
+      ],
+      [
+        355,
+        395
+      ],
+      [
+        310,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-STAIR-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Sports Wing Stair 23",
+    "type": "Circulation",
+    "x": 152,
+    "y": 793,
+    "plan": "Sports Wing Stair 23",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        780
+      ],
+      [
+        171,
+        780
+      ],
+      [
+        171,
+        806
+      ],
+      [
+        133,
+        806
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-STAIR-M",
+    "building": "B",
+    "floor": 1,
+    "name": "Sports Wing Stair 24",
+    "type": "Circulation",
+    "x": 334.5,
+    "y": 690,
+    "plan": "Sports Wing Stair 24",
+    "kind": "Circulation",
+    "shape": [
+      [
+        324,
+        667
+      ],
+      [
+        345,
+        667
+      ],
+      [
+        345,
+        713
+      ],
+      [
+        324,
+        713
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-STAIR-E",
+    "building": "B",
+    "floor": 1,
+    "name": "Sports Wing Stair 26",
+    "type": "Circulation",
+    "x": 522,
+    "y": 794,
+    "plan": "Sports Wing Stair 26",
+    "kind": "Circulation",
+    "shape": [
+      [
+        505,
+        781
+      ],
+      [
+        539,
+        781
+      ],
+      [
+        539,
+        807
+      ],
+      [
+        505,
+        807
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N1",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 181.5,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        159,
+        170
+      ],
+      [
+        204,
+        170
+      ],
+      [
+        204,
+        208
+      ],
+      [
+        159,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N2",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 231,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        206,
+        170
+      ],
+      [
+        256,
+        170
+      ],
+      [
+        256,
+        208
+      ],
+      [
+        206,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N3",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 282,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        258,
+        170
+      ],
+      [
+        306,
+        170
+      ],
+      [
+        306,
+        208
+      ],
+      [
+        258,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N4",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 332,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        308,
+        170
+      ],
+      [
+        356,
+        170
+      ],
+      [
+        356,
+        208
+      ],
+      [
+        308,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-STAIR-W",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Stair 16",
+    "type": "Circulation",
+    "x": 144,
+    "y": 188.5,
+    "plan": "North Wing Stair 16",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        170
+      ],
+      [
+        155,
+        170
+      ],
+      [
+        155,
+        207
+      ],
+      [
+        133,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-STAIR-E",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Stair 17",
+    "type": "Circulation",
+    "x": 368.5,
+    "y": 188,
+    "plan": "North Wing Stair 17",
+    "kind": "Circulation",
+    "shape": [
+      [
+        359,
+        169
+      ],
+      [
+        378,
+        169
+      ],
+      [
+        378,
+        207
+      ],
+      [
+        359,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-CORR",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 245.5,
+    "y": 156,
+    "plan": "North Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        135,
+        146
+      ],
+      [
+        356,
+        146
+      ],
+      [
+        356,
+        166
+      ],
+      [
+        135,
+        166
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-STUDY",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Study Support",
+    "type": "Teaching",
+    "x": 169,
+    "y": 125,
+    "plan": "North Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        134,
+        107
+      ],
+      [
+        204,
+        107
+      ],
+      [
+        204,
+        143
+      ],
+      [
+        134,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-TOILETS",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Toilets",
+    "type": "Facilities",
+    "x": 302.5,
+    "y": 125,
+    "plan": "North Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        291,
+        107
+      ],
+      [
+        314,
+        107
+      ],
+      [
+        314,
+        143
+      ],
+      [
+        291,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-WC-M",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 114,
+    "plan": "North Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        105
+      ],
+      [
+        378,
+        105
+      ],
+      [
+        378,
+        123
+      ],
+      [
+        344,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-WC-W",
+    "building": "B",
+    "floor": 2,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 132,
+    "plan": "North Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        124
+      ],
+      [
+        378,
+        124
+      ],
+      [
+        378,
+        140
+      ],
+      [
+        344,
+        140
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-PLAY",
+    "building": "B",
+    "floor": 2,
+    "name": "Creative Play",
+    "type": "Teaching",
+    "x": 231.5,
+    "y": 124.5,
+    "plan": "Creative Play",
+    "kind": "Teaching",
+    "shape": [
+      [
+        208,
+        107
+      ],
+      [
+        255,
+        107
+      ],
+      [
+        255,
+        142
+      ],
+      [
+        208,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-N-HEAD",
+    "building": "B",
+    "floor": 2,
+    "name": "Head of Primary School Office",
+    "type": "Office",
+    "x": 273,
+    "y": 124.5,
+    "plan": "Head of Primary School Office",
+    "kind": "Office",
+    "shape": [
+      [
+        258,
+        107
+      ],
+      [
+        288,
+        107
+      ],
+      [
+        288,
+        142
+      ],
+      [
+        258,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M1",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 233,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        209,
+        424
+      ],
+      [
+        257,
+        424
+      ],
+      [
+        257,
+        462
+      ],
+      [
+        209,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M2",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 283,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        259,
+        424
+      ],
+      [
+        307,
+        424
+      ],
+      [
+        307,
+        462
+      ],
+      [
+        259,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M3",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 332.5,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        309,
+        424
+      ],
+      [
+        356,
+        424
+      ],
+      [
+        356,
+        462
+      ],
+      [
+        309,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M4",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 384,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        424
+      ],
+      [
+        410,
+        424
+      ],
+      [
+        410,
+        462
+      ],
+      [
+        358,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-STORAGE",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Store",
+    "type": "Support",
+    "x": 220.5,
+    "y": 375.5,
+    "plan": "Middle Wing Store",
+    "kind": "Support",
+    "shape": [
+      [
+        209,
+        356
+      ],
+      [
+        232,
+        356
+      ],
+      [
+        232,
+        395
+      ],
+      [
+        209,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-STAIR-W",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Stair 18",
+    "type": "Circulation",
+    "x": 241,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 18",
+    "kind": "Circulation",
+    "shape": [
+      [
+        233,
+        356
+      ],
+      [
+        249,
+        356
+      ],
+      [
+        249,
+        395
+      ],
+      [
+        233,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-STUDY",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Study Support",
+    "type": "Teaching",
+    "x": 282,
+    "y": 376,
+    "plan": "Middle Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        259,
+        357
+      ],
+      [
+        305,
+        357
+      ],
+      [
+        305,
+        395
+      ],
+      [
+        259,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-WC-W",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 363.5,
+    "y": 373.5,
+    "plan": "Middle Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        358,
+        357
+      ],
+      [
+        369,
+        357
+      ],
+      [
+        369,
+        390
+      ],
+      [
+        358,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-WC-M",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 377.5,
+    "y": 373.5,
+    "plan": "Middle Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        371,
+        357
+      ],
+      [
+        384,
+        357
+      ],
+      [
+        384,
+        390
+      ],
+      [
+        371,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-STAIR-E",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Stair 19",
+    "type": "Circulation",
+    "x": 398.5,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 19",
+    "kind": "Circulation",
+    "shape": [
+      [
+        386,
+        356
+      ],
+      [
+        411,
+        356
+      ],
+      [
+        411,
+        395
+      ],
+      [
+        386,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-CORR",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 309.5,
+    "y": 409,
+    "plan": "Middle Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        209,
+        399
+      ],
+      [
+        410,
+        399
+      ],
+      [
+        410,
+        419
+      ],
+      [
+        209,
+        419
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-E-RECOVERY",
+    "building": "B",
+    "floor": 2,
+    "name": "Recovery Room",
+    "type": "Support",
+    "x": 531.5,
+    "y": 378.5,
+    "plan": "Recovery Room",
+    "kind": "Support",
+    "shape": [
+      [
+        519,
+        370
+      ],
+      [
+        544,
+        370
+      ],
+      [
+        544,
+        387
+      ],
+      [
+        519,
+        387
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-E-STAIR-N",
+    "building": "B",
+    "floor": 2,
+    "name": "East Wing Stair 20",
+    "type": "Circulation",
+    "x": 516,
+    "y": 316.5,
+    "plan": "East Wing Stair 20",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        301
+      ],
+      [
+        526,
+        301
+      ],
+      [
+        526,
+        332
+      ],
+      [
+        506,
+        332
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-E-STAIR-S",
+    "building": "B",
+    "floor": 2,
+    "name": "East Wing Stair 21",
+    "type": "Circulation",
+    "x": 516,
+    "y": 407.5,
+    "plan": "East Wing Stair 21",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        391
+      ],
+      [
+        526,
+        391
+      ],
+      [
+        526,
+        424
+      ],
+      [
+        506,
+        424
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-E-FOOD",
+    "building": "B",
+    "floor": 2,
+    "name": "Food Distribution",
+    "type": "Support",
+    "x": 529.5,
+    "y": 353.5,
+    "plan": "Food Distribution",
+    "kind": "Support",
+    "shape": [
+      [
+        514,
+        338
+      ],
+      [
+        545,
+        338
+      ],
+      [
+        545,
+        369
+      ],
+      [
+        514,
+        369
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-CANTEEN",
+    "building": "B",
+    "floor": 2,
+    "name": "Lower School Canteen",
+    "type": "Public",
+    "x": 569.5,
+    "y": 367,
+    "plan": "Lower School Canteen",
+    "kind": "Public",
+    "shape": [
+      [
+        549,
+        289
+      ],
+      [
+        590,
+        289
+      ],
+      [
+        590,
+        445
+      ],
+      [
+        549,
+        445
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-M-CLASS-N",
+    "building": "B",
+    "floor": 2,
+    "name": "Middle Wing Classroom · north side",
+    "type": "Classroom",
+    "x": 332,
+    "y": 375.5,
+    "plan": "Middle Wing Classroom · north side",
+    "kind": "Classroom",
+    "shape": [
+      [
+        310,
+        356
+      ],
+      [
+        354,
+        356
+      ],
+      [
+        354,
+        395
+      ],
+      [
+        310,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-STAIR-W",
+    "building": "B",
+    "floor": 2,
+    "name": "Sports Wing Stair 23",
+    "type": "Circulation",
+    "x": 152,
+    "y": 793,
+    "plan": "Sports Wing Stair 23",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        780
+      ],
+      [
+        171,
+        780
+      ],
+      [
+        171,
+        806
+      ],
+      [
+        133,
+        806
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-STAIR-M",
+    "building": "B",
+    "floor": 2,
+    "name": "Sports Wing Stair 24",
+    "type": "Circulation",
+    "x": 334.5,
+    "y": 690,
+    "plan": "Sports Wing Stair 24",
+    "kind": "Circulation",
+    "shape": [
+      [
+        324,
+        667
+      ],
+      [
+        345,
+        667
+      ],
+      [
+        345,
+        713
+      ],
+      [
+        324,
+        713
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-STAIR-E",
+    "building": "B",
+    "floor": 2,
+    "name": "Sports Wing Stair 26",
+    "type": "Circulation",
+    "x": 522,
+    "y": 794,
+    "plan": "Sports Wing Stair 26",
+    "kind": "Circulation",
+    "shape": [
+      [
+        505,
+        781
+      ],
+      [
+        539,
+        781
+      ],
+      [
+        539,
+        807
+      ],
+      [
+        505,
+        807
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N1",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 181.5,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        159,
+        170
+      ],
+      [
+        204,
+        170
+      ],
+      [
+        204,
+        208
+      ],
+      [
+        159,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N2",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 231,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        206,
+        170
+      ],
+      [
+        256,
+        170
+      ],
+      [
+        256,
+        208
+      ],
+      [
+        206,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N3",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 282,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        258,
+        170
+      ],
+      [
+        306,
+        170
+      ],
+      [
+        306,
+        208
+      ],
+      [
+        258,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N4",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 332,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        308,
+        170
+      ],
+      [
+        356,
+        170
+      ],
+      [
+        356,
+        208
+      ],
+      [
+        308,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-STAIR-W",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Stair 16",
+    "type": "Circulation",
+    "x": 144,
+    "y": 188.5,
+    "plan": "North Wing Stair 16",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        170
+      ],
+      [
+        155,
+        170
+      ],
+      [
+        155,
+        207
+      ],
+      [
+        133,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-STAIR-E",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Stair 17",
+    "type": "Circulation",
+    "x": 368.5,
+    "y": 188,
+    "plan": "North Wing Stair 17",
+    "kind": "Circulation",
+    "shape": [
+      [
+        359,
+        169
+      ],
+      [
+        378,
+        169
+      ],
+      [
+        378,
+        207
+      ],
+      [
+        359,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-CORR",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 245.5,
+    "y": 156,
+    "plan": "North Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        135,
+        146
+      ],
+      [
+        356,
+        146
+      ],
+      [
+        356,
+        166
+      ],
+      [
+        135,
+        166
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-STUDY",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Study Support",
+    "type": "Teaching",
+    "x": 169,
+    "y": 125,
+    "plan": "North Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        134,
+        107
+      ],
+      [
+        204,
+        107
+      ],
+      [
+        204,
+        143
+      ],
+      [
+        134,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-TOILETS",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Toilets",
+    "type": "Facilities",
+    "x": 302.5,
+    "y": 125,
+    "plan": "North Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        291,
+        107
+      ],
+      [
+        314,
+        107
+      ],
+      [
+        314,
+        143
+      ],
+      [
+        291,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-WC-M",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 114,
+    "plan": "North Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        105
+      ],
+      [
+        378,
+        105
+      ],
+      [
+        378,
+        123
+      ],
+      [
+        344,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-WC-W",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 132,
+    "plan": "North Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        124
+      ],
+      [
+        378,
+        124
+      ],
+      [
+        378,
+        140
+      ],
+      [
+        344,
+        140
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-PLAY",
+    "building": "B",
+    "floor": 3,
+    "name": "Creative Play",
+    "type": "Teaching",
+    "x": 231.5,
+    "y": 124.5,
+    "plan": "Creative Play",
+    "kind": "Teaching",
+    "shape": [
+      [
+        208,
+        107
+      ],
+      [
+        255,
+        107
+      ],
+      [
+        255,
+        142
+      ],
+      [
+        208,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-N-HEAD",
+    "building": "B",
+    "floor": 3,
+    "name": "North Wing Store",
+    "type": "Support",
+    "x": 273,
+    "y": 124.5,
+    "plan": "North Wing Store",
+    "kind": "Support",
+    "shape": [
+      [
+        258,
+        107
+      ],
+      [
+        288,
+        107
+      ],
+      [
+        288,
+        142
+      ],
+      [
+        258,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M1",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Classroom 1",
+    "type": "Classroom",
+    "x": 233,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        209,
+        424
+      ],
+      [
+        257,
+        424
+      ],
+      [
+        257,
+        462
+      ],
+      [
+        209,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M2",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Classroom 2",
+    "type": "Classroom",
+    "x": 283,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        259,
+        424
+      ],
+      [
+        307,
+        424
+      ],
+      [
+        307,
+        462
+      ],
+      [
+        259,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M3",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Classroom 3",
+    "type": "Classroom",
+    "x": 332.5,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        309,
+        424
+      ],
+      [
+        356,
+        424
+      ],
+      [
+        356,
+        462
+      ],
+      [
+        309,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M4",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Classroom 4",
+    "type": "Classroom",
+    "x": 384,
+    "y": 443,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        358,
+        424
+      ],
+      [
+        410,
+        424
+      ],
+      [
+        410,
+        462
+      ],
+      [
+        358,
+        462
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-STORAGE",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Store",
+    "type": "Support",
+    "x": 220.5,
+    "y": 375.5,
+    "plan": "Middle Wing Store",
+    "kind": "Support",
+    "shape": [
+      [
+        209,
+        356
+      ],
+      [
+        232,
+        356
+      ],
+      [
+        232,
+        395
+      ],
+      [
+        209,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-STAIR-W",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Stair 18",
+    "type": "Circulation",
+    "x": 241,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 18",
+    "kind": "Circulation",
+    "shape": [
+      [
+        233,
+        356
+      ],
+      [
+        249,
+        356
+      ],
+      [
+        249,
+        395
+      ],
+      [
+        233,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-STUDY",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Study Support",
+    "type": "Teaching",
+    "x": 282,
+    "y": 376,
+    "plan": "Middle Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        259,
+        357
+      ],
+      [
+        305,
+        357
+      ],
+      [
+        305,
+        395
+      ],
+      [
+        259,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-WC-W",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Women’s WC",
+    "type": "Facilities",
+    "x": 363.5,
+    "y": 373.5,
+    "plan": "Middle Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        358,
+        357
+      ],
+      [
+        369,
+        357
+      ],
+      [
+        369,
+        390
+      ],
+      [
+        358,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-WC-M",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Men’s WC",
+    "type": "Facilities",
+    "x": 377.5,
+    "y": 373.5,
+    "plan": "Middle Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        371,
+        357
+      ],
+      [
+        384,
+        357
+      ],
+      [
+        384,
+        390
+      ],
+      [
+        371,
+        390
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-STAIR-E",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Stair 19",
+    "type": "Circulation",
+    "x": 398.5,
+    "y": 375.5,
+    "plan": "Middle Wing Stair 19",
+    "kind": "Circulation",
+    "shape": [
+      [
+        386,
+        356
+      ],
+      [
+        411,
+        356
+      ],
+      [
+        411,
+        395
+      ],
+      [
+        386,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-CORR",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Corridor",
+    "type": "Circulation",
+    "x": 309.5,
+    "y": 409,
+    "plan": "Middle Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        209,
+        399
+      ],
+      [
+        410,
+        399
+      ],
+      [
+        410,
+        419
+      ],
+      [
+        209,
+        419
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-E-RECOVERY",
+    "building": "B",
+    "floor": 3,
+    "name": "Recovery Room",
+    "type": "Support",
+    "x": 531.5,
+    "y": 378.5,
+    "plan": "Recovery Room",
+    "kind": "Support",
+    "shape": [
+      [
+        519,
+        370
+      ],
+      [
+        544,
+        370
+      ],
+      [
+        544,
+        387
+      ],
+      [
+        519,
+        387
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-E-STAIR-N",
+    "building": "B",
+    "floor": 3,
+    "name": "East Wing Stair 20",
+    "type": "Circulation",
+    "x": 516,
+    "y": 316.5,
+    "plan": "East Wing Stair 20",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        301
+      ],
+      [
+        526,
+        301
+      ],
+      [
+        526,
+        332
+      ],
+      [
+        506,
+        332
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-E-STAIR-S",
+    "building": "B",
+    "floor": 3,
+    "name": "East Wing Stair 21",
+    "type": "Circulation",
+    "x": 516,
+    "y": 407.5,
+    "plan": "East Wing Stair 21",
+    "kind": "Circulation",
+    "shape": [
+      [
+        506,
+        391
+      ],
+      [
+        526,
+        391
+      ],
+      [
+        526,
+        424
+      ],
+      [
+        506,
+        424
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-E-FOOD",
+    "building": "B",
+    "floor": 3,
+    "name": "Food Distribution",
+    "type": "Support",
+    "x": 529.5,
+    "y": 353.5,
+    "plan": "Food Distribution",
+    "kind": "Support",
+    "shape": [
+      [
+        514,
+        338
+      ],
+      [
+        545,
+        338
+      ],
+      [
+        545,
+        369
+      ],
+      [
+        514,
+        369
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-CANTEEN",
+    "building": "B",
+    "floor": 3,
+    "name": "Lower School Canteen",
+    "type": "Public",
+    "x": 569.5,
+    "y": 367,
+    "plan": "Lower School Canteen",
+    "kind": "Public",
+    "shape": [
+      [
+        549,
+        289
+      ],
+      [
+        590,
+        289
+      ],
+      [
+        590,
+        445
+      ],
+      [
+        549,
+        445
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-M-PLAY",
+    "building": "B",
+    "floor": 3,
+    "name": "Middle Wing Classroom · north side",
+    "type": "Classroom",
+    "x": 332.5,
+    "y": 375.5,
+    "plan": "Middle Wing Classroom · north side",
+    "kind": "Classroom",
+    "shape": [
+      [
+        310,
+        356
+      ],
+      [
+        355,
+        356
+      ],
+      [
+        355,
+        395
+      ],
+      [
+        310,
+        395
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-STAIR-W",
+    "building": "B",
+    "floor": 3,
+    "name": "Sports Wing Stair 23",
+    "type": "Circulation",
+    "x": 152,
+    "y": 793,
+    "plan": "Sports Wing Stair 23",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        780
+      ],
+      [
+        171,
+        780
+      ],
+      [
+        171,
+        806
+      ],
+      [
+        133,
+        806
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-STAIR-M",
+    "building": "B",
+    "floor": 3,
+    "name": "Sports Wing Stair 24",
+    "type": "Circulation",
+    "x": 334.5,
+    "y": 690,
+    "plan": "Sports Wing Stair 24",
+    "kind": "Circulation",
+    "shape": [
+      [
+        324,
+        667
+      ],
+      [
+        345,
+        667
+      ],
+      [
+        345,
+        713
+      ],
+      [
+        324,
+        713
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-STAIR-E",
+    "building": "B",
+    "floor": 3,
+    "name": "Sports Wing Stair 26",
+    "type": "Circulation",
+    "x": 522,
+    "y": 794,
+    "plan": "Sports Wing Stair 26",
+    "kind": "Circulation",
+    "shape": [
+      [
+        505,
+        781
+      ],
+      [
+        539,
+        781
+      ],
+      [
+        539,
+        807
+      ],
+      [
+        505,
+        807
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N1",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Classroom 1",
+    "type": "Classroom",
+    "x": 181.5,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        159,
+        170
+      ],
+      [
+        204,
+        170
+      ],
+      [
+        204,
+        208
+      ],
+      [
+        159,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N2",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Classroom 2",
+    "type": "Classroom",
+    "x": 231,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        206,
+        170
+      ],
+      [
+        256,
+        170
+      ],
+      [
+        256,
+        208
+      ],
+      [
+        206,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N3",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Classroom 3",
+    "type": "Classroom",
+    "x": 282,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        258,
+        170
+      ],
+      [
+        306,
+        170
+      ],
+      [
+        306,
+        208
+      ],
+      [
+        258,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N4",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Classroom 4",
+    "type": "Classroom",
+    "x": 332,
+    "y": 189,
+    "plan": "Classroom shown on drawing",
+    "kind": "Classroom",
+    "shape": [
+      [
+        308,
+        170
+      ],
+      [
+        356,
+        170
+      ],
+      [
+        356,
+        208
+      ],
+      [
+        308,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-STAIR-W",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Stair 16",
+    "type": "Circulation",
+    "x": 144,
+    "y": 188.5,
+    "plan": "North Wing Stair 16",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        170
+      ],
+      [
+        155,
+        170
+      ],
+      [
+        155,
+        207
+      ],
+      [
+        133,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-STAIR-E",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Stair 17",
+    "type": "Circulation",
+    "x": 368.5,
+    "y": 188,
+    "plan": "North Wing Stair 17",
+    "kind": "Circulation",
+    "shape": [
+      [
+        359,
+        169
+      ],
+      [
+        378,
+        169
+      ],
+      [
+        378,
+        207
+      ],
+      [
+        359,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-CORR",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Corridor",
+    "type": "Circulation",
+    "x": 245.5,
+    "y": 156,
+    "plan": "North Wing Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        135,
+        146
+      ],
+      [
+        356,
+        146
+      ],
+      [
+        356,
+        166
+      ],
+      [
+        135,
+        166
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-STUDY",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Study Support",
+    "type": "Teaching",
+    "x": 169,
+    "y": 125,
+    "plan": "North Wing Study Support",
+    "kind": "Teaching",
+    "shape": [
+      [
+        134,
+        107
+      ],
+      [
+        204,
+        107
+      ],
+      [
+        204,
+        143
+      ],
+      [
+        134,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-TOILETS",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Toilets",
+    "type": "Facilities",
+    "x": 302.5,
+    "y": 125,
+    "plan": "North Wing Toilets",
+    "kind": "Facilities",
+    "shape": [
+      [
+        291,
+        107
+      ],
+      [
+        314,
+        107
+      ],
+      [
+        314,
+        143
+      ],
+      [
+        291,
+        143
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-WC-M",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Men’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 114,
+    "plan": "North Wing Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        105
+      ],
+      [
+        378,
+        105
+      ],
+      [
+        378,
+        123
+      ],
+      [
+        344,
+        123
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-WC-W",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Women’s WC",
+    "type": "Facilities",
+    "x": 361,
+    "y": 132,
+    "plan": "North Wing Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        344,
+        124
+      ],
+      [
+        378,
+        124
+      ],
+      [
+        378,
+        140
+      ],
+      [
+        344,
+        140
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-PLAY",
+    "building": "B",
+    "floor": 4,
+    "name": "Informal Rest",
+    "type": "Public",
+    "x": 231.5,
+    "y": 124.5,
+    "plan": "Informal Rest",
+    "kind": "Public",
+    "shape": [
+      [
+        208,
+        107
+      ],
+      [
+        255,
+        107
+      ],
+      [
+        255,
+        142
+      ],
+      [
+        208,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-HEAD",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Store",
+    "type": "Support",
+    "x": 273,
+    "y": 124.5,
+    "plan": "North Wing Store",
+    "kind": "Support",
+    "shape": [
+      [
+        258,
+        107
+      ],
+      [
+        288,
+        107
+      ],
+      [
+        288,
+        142
+      ],
+      [
+        258,
+        142
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-M-ROOF",
+    "building": "B",
+    "floor": 4,
+    "name": "Middle Wing Roof",
+    "type": "Other",
+    "x": 307.5,
+    "y": 410,
+    "plan": "Middle Wing Roof",
+    "kind": "Void",
+    "shape": [
+      [
+        207,
+        357
+      ],
+      [
+        408,
+        357
+      ],
+      [
+        408,
+        463
+      ],
+      [
+        207,
+        463
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-E-ROOF",
+    "building": "B",
+    "floor": 4,
+    "name": "East Wing Non-step Roof",
+    "type": "Other",
+    "x": 549,
+    "y": 365.5,
+    "plan": "East Wing Non-step Roof",
+    "kind": "Void",
+    "shape": [
+      [
+        507,
+        277
+      ],
+      [
+        591,
+        277
+      ],
+      [
+        591,
+        454
+      ],
+      [
+        507,
+        454
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-N-ROOF",
+    "building": "B",
+    "floor": 4,
+    "name": "North Wing Non-step Roof",
+    "type": "Other",
+    "x": 428,
+    "y": 171.5,
+    "plan": "North Wing Non-step Roof",
+    "kind": "Void",
+    "shape": [
+      [
+        405,
+        137
+      ],
+      [
+        451,
+        137
+      ],
+      [
+        451,
+        206
+      ],
+      [
+        405,
+        206
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-SPORTS-VOID-W",
+    "building": "B",
+    "floor": 4,
+    "name": "Opening over West Sports Hall",
+    "type": "Other",
+    "x": 227,
+    "y": 712,
+    "plan": "Opening over West Sports Hall",
+    "kind": "Void",
+    "shape": [
+      [
+        134,
+        645
+      ],
+      [
+        320,
+        645
+      ],
+      [
+        320,
+        779
+      ],
+      [
+        134,
+        779
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-SPORTS-VOID-E",
+    "building": "B",
+    "floor": 4,
+    "name": "Opening over East Sports Hall",
+    "type": "Other",
+    "x": 445.5,
+    "y": 712,
+    "plan": "Opening over East Sports Hall",
+    "kind": "Void",
+    "shape": [
+      [
+        353,
+        645
+      ],
+      [
+        538,
+        645
+      ],
+      [
+        538,
+        779
+      ],
+      [
+        353,
+        779
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-S-STAIR-W",
+    "building": "B",
+    "floor": 4,
+    "name": "Sports Wing Stair 23",
+    "type": "Circulation",
+    "x": 152,
+    "y": 793,
+    "plan": "Sports Wing Stair 23",
+    "kind": "Circulation",
+    "shape": [
+      [
+        133,
+        780
+      ],
+      [
+        171,
+        780
+      ],
+      [
+        171,
+        806
+      ],
+      [
+        133,
+        806
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-S-STAIR-M",
+    "building": "B",
+    "floor": 4,
+    "name": "Sports Wing Stair 24",
+    "type": "Circulation",
+    "x": 334.5,
+    "y": 690,
+    "plan": "Sports Wing Stair 24",
+    "kind": "Circulation",
+    "shape": [
+      [
+        324,
+        667
+      ],
+      [
+        345,
+        667
+      ],
+      [
+        345,
+        713
+      ],
+      [
+        324,
+        713
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-S-STAIR-E",
+    "building": "B",
+    "floor": 4,
+    "name": "Sports Wing Stair 26",
+    "type": "Circulation",
+    "x": 522,
+    "y": 794,
+    "plan": "Sports Wing Stair 26",
+    "kind": "Circulation",
+    "shape": [
+      [
+        505,
+        781
+      ],
+      [
+        539,
+        781
+      ],
+      [
+        539,
+        807
+      ],
+      [
+        505,
+        807
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-STAFF-REST",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Rest Room",
+    "type": "Office",
+    "x": 169,
+    "y": 154.5,
+    "plan": "Staff Rest Room",
+    "kind": "Office",
+    "shape": [
+      [
+        135,
+        140
+      ],
+      [
+        203,
+        140
+      ],
+      [
+        203,
+        169
+      ],
+      [
+        135,
+        169
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-BOARD",
+    "building": "B",
+    "floor": 1,
+    "name": "Board Room",
+    "type": "Office",
+    "x": 230.5,
+    "y": 154,
+    "plan": "Board Room",
+    "kind": "Office",
+    "shape": [
+      [
+        205,
+        140
+      ],
+      [
+        256,
+        140
+      ],
+      [
+        256,
+        168
+      ],
+      [
+        205,
+        168
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-CONFERENCE",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Conference Room",
+    "type": "Office",
+    "x": 269.5,
+    "y": 154,
+    "plan": "Staff Conference Room",
+    "kind": "Office",
+    "shape": [
+      [
+        258,
+        140
+      ],
+      [
+        281,
+        140
+      ],
+      [
+        281,
+        168
+      ],
+      [
+        258,
+        168
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-PANTRY",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Pantry",
+    "type": "Support",
+    "x": 176.5,
+    "y": 191,
+    "plan": "Staff Pantry",
+    "kind": "Support",
+    "shape": [
+      [
+        159,
+        174
+      ],
+      [
+        194,
+        174
+      ],
+      [
+        194,
+        208
+      ],
+      [
+        159,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-STAFF-WC-M",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Men’s WC",
+    "type": "Facilities",
+    "x": 203.5,
+    "y": 193.5,
+    "plan": "Staff Men’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        195,
+        180
+      ],
+      [
+        212,
+        180
+      ],
+      [
+        212,
+        207
+      ],
+      [
+        195,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-STAFF-WC-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Women’s WC",
+    "type": "Facilities",
+    "x": 226.5,
+    "y": 194,
+    "plan": "Staff Women’s WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        214,
+        180
+      ],
+      [
+        239,
+        180
+      ],
+      [
+        239,
+        208
+      ],
+      [
+        214,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-MEETING",
+    "building": "B",
+    "floor": 1,
+    "name": "Staff Meeting Room",
+    "type": "Office",
+    "x": 262.5,
+    "y": 194.5,
+    "plan": "Staff Meeting Room",
+    "kind": "Office",
+    "shape": [
+      [
+        241,
+        181
+      ],
+      [
+        284,
+        181
+      ],
+      [
+        284,
+        208
+      ],
+      [
+        241,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-HEAD",
+    "building": "B",
+    "floor": 1,
+    "name": "Head of Primary School Office",
+    "type": "Office",
+    "x": 296,
+    "y": 194,
+    "plan": "Head of Primary School Office",
+    "kind": "Office",
+    "shape": [
+      [
+        286,
+        180
+      ],
+      [
+        306,
+        180
+      ],
+      [
+        306,
+        208
+      ],
+      [
+        286,
+        208
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-SCHOOL-LOBBY",
+    "building": "B",
+    "floor": 1,
+    "name": "School Lobby",
+    "type": "Public",
+    "x": 332.5,
+    "y": 162,
+    "plan": "School Lobby",
+    "kind": "Public",
+    "shape": [
+      [
+        310,
+        143
+      ],
+      [
+        355,
+        143
+      ],
+      [
+        355,
+        181
+      ],
+      [
+        310,
+        181
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-RECEPTION",
+    "building": "B",
+    "floor": 1,
+    "name": "Waiting & Reception",
+    "type": "Public",
+    "x": 333,
+    "y": 195,
+    "plan": "Waiting & Reception",
+    "kind": "Public",
+    "shape": [
+      [
+        311,
+        183
+      ],
+      [
+        355,
+        183
+      ],
+      [
+        355,
+        207
+      ],
+      [
+        311,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-STAIR",
+    "building": "B",
+    "floor": 1,
+    "name": "North Wing Stair 17",
+    "type": "Circulation",
+    "x": 367.5,
+    "y": 188.5,
+    "plan": "North Wing Stair 17",
+    "kind": "Circulation",
+    "shape": [
+      [
+        358,
+        170
+      ],
+      [
+        377,
+        170
+      ],
+      [
+        377,
+        207
+      ],
+      [
+        358,
+        207
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-N-PLAY",
+    "building": "B",
+    "floor": 1,
+    "name": "Indoor Play Area",
+    "type": "Teaching",
+    "x": 414.5,
+    "y": 171.7,
+    "plan": "Indoor Play Area",
+    "kind": "Teaching",
+    "shape": [
+      [
+        381,
+        140
+      ],
+      [
+        451,
+        140
+      ],
+      [
+        451,
+        203
+      ],
+      [
+        411,
+        203
+      ],
+      [
+        411,
+        172
+      ],
+      [
+        382,
+        172
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-POOL",
+    "building": "B",
+    "floor": 1,
+    "name": "Swimming Pool",
+    "type": "Sports",
+    "x": 225,
+    "y": 717.5,
+    "plan": "Swimming Pool",
+    "kind": "Sports",
+    "shape": [
+      [
+        147,
+        659
+      ],
+      [
+        303,
+        659
+      ],
+      [
+        303,
+        776
+      ],
+      [
+        147,
+        776
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-RECEPTION",
+    "building": "B",
+    "floor": 1,
+    "name": "Sports Reception",
+    "type": "Public",
+    "x": 473.5,
+    "y": 660.5,
+    "plan": "Sports Reception",
+    "kind": "Public",
+    "shape": [
+      [
+        450,
+        644
+      ],
+      [
+        497,
+        644
+      ],
+      [
+        497,
+        677
+      ],
+      [
+        450,
+        677
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-STORE",
+    "building": "B",
+    "floor": 1,
+    "name": "Sports Store",
+    "type": "Support",
+    "x": 519.5,
+    "y": 672.5,
+    "plan": "Sports Store",
+    "kind": "Support",
+    "shape": [
+      [
+        502,
+        663
+      ],
+      [
+        537,
+        663
+      ],
+      [
+        537,
+        682
+      ],
+      [
+        502,
+        682
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-CHANGE-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Women’s Changing Room",
+    "type": "Facilities",
+    "x": 429.5,
+    "y": 695.5,
+    "plan": "Women’s Changing Room",
+    "kind": "Facilities",
+    "shape": [
+      [
+        413,
+        685
+      ],
+      [
+        446,
+        685
+      ],
+      [
+        446,
+        706
+      ],
+      [
+        413,
+        706
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-CHANGE-M",
+    "building": "B",
+    "floor": 1,
+    "name": "Men’s Changing Room",
+    "type": "Facilities",
+    "x": 429.5,
+    "y": 718,
+    "plan": "Men’s Changing Room",
+    "kind": "Facilities",
+    "shape": [
+      [
+        413,
+        708
+      ],
+      [
+        446,
+        708
+      ],
+      [
+        446,
+        728
+      ],
+      [
+        413,
+        728
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-WC-W",
+    "building": "B",
+    "floor": 1,
+    "name": "Women’s Pool WC",
+    "type": "Facilities",
+    "x": 404,
+    "y": 697,
+    "plan": "Women’s Pool WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        398,
+        687
+      ],
+      [
+        410,
+        687
+      ],
+      [
+        410,
+        707
+      ],
+      [
+        398,
+        707
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-WC-M",
+    "building": "B",
+    "floor": 1,
+    "name": "Men’s Pool WC",
+    "type": "Facilities",
+    "x": 404,
+    "y": 718.5,
+    "plan": "Men’s Pool WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        398,
+        709
+      ],
+      [
+        410,
+        709
+      ],
+      [
+        410,
+        728
+      ],
+      [
+        398,
+        728
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-FIRST-AID",
+    "building": "B",
+    "floor": 1,
+    "name": "First Aid Room",
+    "type": "Support",
+    "x": 340.5,
+    "y": 771.5,
+    "plan": "First Aid Room",
+    "kind": "Support",
+    "shape": [
+      [
+        326,
+        762
+      ],
+      [
+        355,
+        762
+      ],
+      [
+        355,
+        781
+      ],
+      [
+        326,
+        781
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-SECURITY",
+    "building": "B",
+    "floor": 1,
+    "name": "Security & Fire Control",
+    "type": "Services",
+    "x": 402.5,
+    "y": 782,
+    "plan": "Security & Fire Control",
+    "kind": "Services",
+    "shape": [
+      [
+        361,
+        763
+      ],
+      [
+        444,
+        763
+      ],
+      [
+        444,
+        801
+      ],
+      [
+        361,
+        801
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-S-SUBSTATION",
+    "building": "B",
+    "floor": 1,
+    "name": "Substation",
+    "type": "Services",
+    "x": 519,
+    "y": 750.5,
+    "plan": "Substation",
+    "kind": "Services",
+    "shape": [
+      [
+        500,
+        724
+      ],
+      [
+        538,
+        724
+      ],
+      [
+        538,
+        777
+      ],
+      [
+        500,
+        777
+      ]
+    ]
+  },
+  {
+    "id": "B-1F-MAIN-ENTRANCE",
+    "building": "B",
+    "floor": 1,
+    "name": "Lobby",
+    "type": "Public",
+    "x": 455,
+    "y": 565.5,
+    "plan": "Lobby",
+    "kind": "Public",
+    "shape": [
+      [
+        415,
+        500
+      ],
+      [
+        495,
+        500
+      ],
+      [
+        495,
+        631
+      ],
+      [
+        415,
+        631
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-SPORTS",
+    "building": "B",
+    "floor": 2,
+    "name": "Gym · Sports Wing",
+    "type": "Sports",
+    "x": 420.5,
+    "y": 757,
+    "plan": "Gym · Sports Wing",
+    "kind": "Sports",
+    "shape": [
+      [
+        345,
+        736
+      ],
+      [
+        496,
+        736
+      ],
+      [
+        496,
+        778
+      ],
+      [
+        345,
+        778
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-CHANGE-W",
+    "building": "B",
+    "floor": 2,
+    "name": "Women’s Changing Room",
+    "type": "Facilities",
+    "x": 435,
+    "y": 696,
+    "plan": "Women’s Changing Room",
+    "kind": "Facilities",
+    "shape": [
+      [
+        423,
+        683
+      ],
+      [
+        447,
+        683
+      ],
+      [
+        447,
+        709
+      ],
+      [
+        423,
+        709
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-CHANGE-M",
+    "building": "B",
+    "floor": 2,
+    "name": "Men’s Changing Room",
+    "type": "Facilities",
+    "x": 435,
+    "y": 720,
+    "plan": "Men’s Changing Room",
+    "kind": "Facilities",
+    "shape": [
+      [
+        423,
+        710
+      ],
+      [
+        447,
+        710
+      ],
+      [
+        447,
+        730
+      ],
+      [
+        423,
+        730
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-WC-W",
+    "building": "B",
+    "floor": 2,
+    "name": "Women’s Sports WC",
+    "type": "Facilities",
+    "x": 401,
+    "y": 694.5,
+    "plan": "Women’s Sports WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        389,
+        683
+      ],
+      [
+        413,
+        683
+      ],
+      [
+        413,
+        706
+      ],
+      [
+        389,
+        706
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-WC-M",
+    "building": "B",
+    "floor": 2,
+    "name": "Men’s Sports WC",
+    "type": "Facilities",
+    "x": 401,
+    "y": 719,
+    "plan": "Men’s Sports WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        389,
+        708
+      ],
+      [
+        413,
+        708
+      ],
+      [
+        413,
+        730
+      ],
+      [
+        389,
+        730
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-LOUNGE-N",
+    "building": "B",
+    "floor": 2,
+    "name": "Sports Lounge 1",
+    "type": "Public",
+    "x": 519.5,
+    "y": 688.5,
+    "plan": "Sports Lounge 1",
+    "kind": "Public",
+    "shape": [
+      [
+        502,
+        652
+      ],
+      [
+        537,
+        652
+      ],
+      [
+        537,
+        725
+      ],
+      [
+        502,
+        725
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-LOUNGE-S",
+    "building": "B",
+    "floor": 2,
+    "name": "Sports Lounge 2",
+    "type": "Public",
+    "x": 519.5,
+    "y": 755,
+    "plan": "Sports Lounge 2",
+    "kind": "Public",
+    "shape": [
+      [
+        501,
+        732
+      ],
+      [
+        538,
+        732
+      ],
+      [
+        538,
+        778
+      ],
+      [
+        501,
+        778
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-STAFF-CHANGE1",
+    "building": "B",
+    "floor": 2,
+    "name": "Staff Changing Room 1",
+    "type": "Facilities",
+    "x": 461,
+    "y": 682.5,
+    "plan": "Staff Changing Room 1",
+    "kind": "Facilities",
+    "shape": [
+      [
+        451,
+        670
+      ],
+      [
+        471,
+        670
+      ],
+      [
+        471,
+        695
+      ],
+      [
+        451,
+        695
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-S-STAFF-CHANGE2",
+    "building": "B",
+    "floor": 2,
+    "name": "Staff Changing Room 2",
+    "type": "Facilities",
+    "x": 462.5,
+    "y": 721.5,
+    "plan": "Staff Changing Room 2",
+    "kind": "Facilities",
+    "shape": [
+      [
+        451,
+        713
+      ],
+      [
+        474,
+        713
+      ],
+      [
+        474,
+        730
+      ],
+      [
+        451,
+        730
+      ]
+    ]
+  },
+  {
+    "id": "B-2F-POOL-VOID",
+    "building": "B",
+    "floor": 2,
+    "name": "Opening over Swimming Pool",
+    "type": "Other",
+    "x": 231.8,
+    "y": 715.2,
+    "plan": "Opening over Swimming Pool",
+    "kind": "Void",
+    "shape": [
+      [
+        134,
+        669
+      ],
+      [
+        270,
+        669
+      ],
+      [
+        302,
+        682
+      ],
+      [
+        319,
+        778
+      ],
+      [
+        134,
+        778
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-SPORTS",
+    "building": "B",
+    "floor": 3,
+    "name": "Indoor Sports Hall · west",
+    "type": "Sports",
+    "x": 227,
+    "y": 713,
+    "plan": "Indoor Sports Hall · west",
+    "kind": "Sports",
+    "shape": [
+      [
+        134,
+        648
+      ],
+      [
+        320,
+        648
+      ],
+      [
+        320,
+        778
+      ],
+      [
+        134,
+        778
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-SPORTS-E",
+    "building": "B",
+    "floor": 3,
+    "name": "Indoor Sports Hall · east",
+    "type": "Sports",
+    "x": 446,
+    "y": 713,
+    "plan": "Indoor Sports Hall · east",
+    "kind": "Sports",
+    "shape": [
+      [
+        354,
+        648
+      ],
+      [
+        538,
+        648
+      ],
+      [
+        538,
+        778
+      ],
+      [
+        354,
+        778
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-STORE",
+    "building": "B",
+    "floor": 3,
+    "name": "Sports Store",
+    "type": "Support",
+    "x": 341.5,
+    "y": 753,
+    "plan": "Sports Store",
+    "kind": "Support",
+    "shape": [
+      [
+        330,
+        735
+      ],
+      [
+        353,
+        735
+      ],
+      [
+        353,
+        771
+      ],
+      [
+        330,
+        771
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-WC-W",
+    "building": "B",
+    "floor": 3,
+    "name": "Women’s Sports WC",
+    "type": "Facilities",
+    "x": 365,
+    "y": 794,
+    "plan": "Women’s Sports WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        352,
+        783
+      ],
+      [
+        378,
+        783
+      ],
+      [
+        378,
+        805
+      ],
+      [
+        352,
+        805
+      ]
+    ]
+  },
+  {
+    "id": "B-3F-S-WC-M",
+    "building": "B",
+    "floor": 3,
+    "name": "Men’s Sports WC",
+    "type": "Facilities",
+    "x": 335,
+    "y": 794,
+    "plan": "Men’s Sports WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        326,
+        783
+      ],
+      [
+        344,
+        783
+      ],
+      [
+        344,
+        805
+      ],
+      [
+        326,
+        805
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-S-AC-N",
+    "building": "B",
+    "floor": 4,
+    "name": "Air-conditioning Room 1",
+    "type": "Services",
+    "x": 337,
+    "y": 656.5,
+    "plan": "Air-conditioning Room 1",
+    "kind": "Services",
+    "shape": [
+      [
+        326,
+        647
+      ],
+      [
+        348,
+        647
+      ],
+      [
+        348,
+        666
+      ],
+      [
+        326,
+        666
+      ]
+    ]
+  },
+  {
+    "id": "B-4F-S-AC-S",
+    "building": "B",
+    "floor": 4,
+    "name": "Air-conditioning Room 2",
+    "type": "Services",
+    "x": 336.5,
+    "y": 791.5,
+    "plan": "Air-conditioning Room 2",
+    "kind": "Services",
+    "shape": [
+      [
+        326,
+        778
+      ],
+      [
+        347,
+        778
+      ],
+      [
+        347,
+        805
+      ],
+      [
+        326,
+        805
+      ]
+    ]
+  },
+  {
+    "id": "G-1F-01",
+    "name": "MIDI Studio / Jam Room 1",
+    "kind": "Music",
+    "shape": [
+      [
+        163,
+        97
+      ],
+      [
+        317,
+        97
+      ],
+      [
+        317,
+        236
+      ],
+      [
+        163,
+        236
+      ]
+    ],
+    "label": [
+      239,
+      169,
+      [
+        "MIDI Studio",
+        "Jam Room 1"
+      ]
+    ],
+    "seats": 42,
+    "bookable": true,
+    "resource": "01",
+    "plan": "MIDI Studio/Jam Room",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-02",
+    "name": "MIDI Studio / Jam Room 2",
+    "kind": "Music",
+    "shape": [
+      [
+        163,
+        239
+      ],
+      [
+        317,
+        239
+      ],
+      [
+        317,
+        397
+      ],
+      [
+        163,
+        397
+      ]
+    ],
+    "label": [
+      239,
+      316,
+      [
+        "MIDI Studio",
+        "Jam Room 2"
+      ]
+    ],
+    "seats": 42,
+    "bookable": true,
+    "resource": "02",
+    "plan": "MIDI Studio/Jam Room",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-03",
+    "name": "Music Recital Hall",
+    "kind": "Music",
+    "shape": [
+      [
+        163,
+        401
+      ],
+      [
+        317,
+        401
+      ],
+      [
+        317,
+        592
+      ],
+      [
+        163,
+        592
+      ]
+    ],
+    "label": [
+      239,
+      495,
+      [
+        "Music",
+        "Recital Hall"
+      ]
+    ],
+    "seats": 54,
+    "bookable": true,
+    "resource": "03",
+    "plan": "Music Recital Hall",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-04",
+    "name": "Black Box Theatre",
+    "kind": "Performance",
+    "shape": [
+      [
+        369,
+        398
+      ],
+      [
+        502,
+        398
+      ],
+      [
+        502,
+        427
+      ],
+      [
+        522,
+        427
+      ],
+      [
+        522,
+        398
+      ],
+      [
+        550,
+        398
+      ],
+      [
+        550,
+        577
+      ],
+      [
+        369,
+        577
+      ]
+    ],
+    "label": [
+      455,
+      497,
+      [
+        "Black Box Theatre"
+      ]
+    ],
+    "seats": 108,
+    "bookable": true,
+    "resource": "04",
+    "plan": "Black Box Theatre",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-05",
+    "name": "Main Stage",
+    "kind": "Performance",
+    "shape": [
+      [
+        697,
+        194
+      ],
+      [
+        839,
+        194
+      ],
+      [
+        839,
+        205
+      ],
+      [
+        866,
+        205
+      ],
+      [
+        866,
+        491
+      ],
+      [
+        839,
+        491
+      ],
+      [
+        839,
+        501
+      ],
+      [
+        697,
+        501
+      ]
+    ],
+    "label": [
+      777,
+      343,
+      [
+        "Main Stage"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "main-theatre",
+    "plan": "Stage",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-06",
+    "name": "Main Auditorium",
+    "kind": "Performance",
+    "shape": [
+      [
+        869,
+        251
+      ],
+      [
+        897,
+        243
+      ],
+      [
+        909,
+        207
+      ],
+      [
+        929,
+        207
+      ],
+      [
+        929,
+        195
+      ],
+      [
+        1206,
+        195
+      ],
+      [
+        1206,
+        499
+      ],
+      [
+        929,
+        499
+      ],
+      [
+        929,
+        487
+      ],
+      [
+        909,
+        487
+      ],
+      [
+        897,
+        456
+      ],
+      [
+        869,
+        445
+      ]
+    ],
+    "label": [
+      1065,
+      350,
+      [
+        "Main Auditorium"
+      ]
+    ],
+    "seats": 625,
+    "bookable": true,
+    "resource": "main-theatre",
+    "plan": "Audience Area",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-07",
+    "name": "Lobby & Rest Area",
+    "kind": "Public",
+    "shape": [
+      [
+        1276,
+        99
+      ],
+      [
+        1331,
+        99
+      ],
+      [
+        1331,
+        595
+      ],
+      [
+        986,
+        595
+      ],
+      [
+        986,
+        534
+      ],
+      [
+        1211,
+        534
+      ],
+      [
+        1211,
+        503
+      ],
+      [
+        1276,
+        503
+      ],
+      [
+        1276,
+        188
+      ],
+      [
+        1211,
+        188
+      ],
+      [
+        1211,
+        161
+      ],
+      [
+        986,
+        161
+      ],
+      [
+        986,
+        99
+      ]
+    ],
+    "label": [
+      1304,
+      347,
+      [
+        "Lobby"
+      ],
+      90
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "07",
+    "plan": "Lobby & Rest Area",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-08",
+    "name": "Piano Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        555,
+        102
+      ],
+      [
+        642,
+        102
+      ],
+      [
+        642,
+        118
+      ],
+      [
+        645,
+        118
+      ],
+      [
+        645,
+        190
+      ],
+      [
+        555,
+        190
+      ]
+    ],
+    "label": [
+      598,
+      153,
+      [
+        "Piano",
+        "Storage"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "08",
+    "plan": "Piano Storage",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-09",
+    "name": "Transformer Room",
+    "kind": "Services",
+    "shape": [
+      [
+        435,
+        100
+      ],
+      [
+        552,
+        100
+      ],
+      [
+        552,
+        191
+      ],
+      [
+        435,
+        191
+      ]
+    ],
+    "label": [
+      502,
+      146,
+      [
+        "Transformer"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "09",
+    "plan": "TRANSFORMER RM",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-10",
+    "name": "Backstage WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        437,
+        196
+      ],
+      [
+        504,
+        196
+      ],
+      [
+        504,
+        294
+      ],
+      [
+        437,
+        294
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "10",
+    "plan": "2# Lavatory WC (FE)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-11",
+    "name": "Backstage WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        507,
+        196
+      ],
+      [
+        550,
+        196
+      ],
+      [
+        550,
+        294
+      ],
+      [
+        507,
+        294
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "11",
+    "plan": "2# Lavatory WC (MA)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-12",
+    "name": "Backstage accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        482,
+        300
+      ],
+      [
+        505,
+        300
+      ],
+      [
+        505,
+        337
+      ],
+      [
+        482,
+        337
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "12",
+    "plan": "Barrier-free way",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-13",
+    "name": "Backstage cargo lift",
+    "kind": "Services",
+    "shape": [
+      [
+        391,
+        240
+      ],
+      [
+        425,
+        240
+      ],
+      [
+        425,
+        284
+      ],
+      [
+        391,
+        284
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "13",
+    "plan": "1# Elevator Cargo",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-14",
+    "name": "Changing Room · women (small)",
+    "kind": "Support",
+    "shape": [
+      [
+        615,
+        196
+      ],
+      [
+        645,
+        196
+      ],
+      [
+        645,
+        245
+      ],
+      [
+        615,
+        245
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "14",
+    "plan": "Changing RM (FE)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-15",
+    "name": "Dressing Room 1",
+    "kind": "Support",
+    "shape": [
+      [
+        615,
+        246
+      ],
+      [
+        645,
+        246
+      ],
+      [
+        645,
+        291
+      ],
+      [
+        615,
+        291
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "15",
+    "plan": "Dressing RM",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-16",
+    "name": "Changing Room · men",
+    "kind": "Support",
+    "shape": [
+      [
+        556,
+        195
+      ],
+      [
+        612,
+        195
+      ],
+      [
+        612,
+        292
+      ],
+      [
+        642,
+        292
+      ],
+      [
+        642,
+        338
+      ],
+      [
+        556,
+        338
+      ]
+    ],
+    "label": [
+      585,
+      315,
+      [
+        "Changing"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "16",
+    "plan": "(MA) Changing Room / 3# Dressing RM",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-17",
+    "name": "Changing Room · women",
+    "kind": "Support",
+    "shape": [
+      [
+        556,
+        398
+      ],
+      [
+        638,
+        398
+      ],
+      [
+        638,
+        444
+      ],
+      [
+        556,
+        444
+      ]
+    ],
+    "label": [
+      597,
+      422,
+      [
+        "Changing"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "17",
+    "plan": "(FE) Changing Room",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-18",
+    "name": "Dressing Room 2",
+    "kind": "Support",
+    "shape": [
+      [
+        556,
+        445
+      ],
+      [
+        638,
+        445
+      ],
+      [
+        638,
+        488
+      ],
+      [
+        556,
+        488
+      ]
+    ],
+    "label": [
+      597,
+      465,
+      [
+        "Dressing"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "18",
+    "plan": "Dressing RM",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-19",
+    "name": "Changing Room · small",
+    "kind": "Support",
+    "shape": [
+      [
+        556,
+        489
+      ],
+      [
+        645,
+        489
+      ],
+      [
+        645,
+        540
+      ],
+      [
+        556,
+        540
+      ]
+    ],
+    "label": [
+      600,
+      514,
+      [
+        "Changing"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "19",
+    "plan": "Changing RM (Small)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-20",
+    "name": "Backstage Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        555,
+        543
+      ],
+      [
+        642,
+        543
+      ],
+      [
+        642,
+        591
+      ],
+      [
+        555,
+        591
+      ]
+    ],
+    "label": [
+      598,
+      568,
+      [
+        "Storage"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "20",
+    "plan": "Storage",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-21",
+    "name": "Lobby Storage 1",
+    "kind": "Support",
+    "shape": [
+      [
+        1211,
+        193
+      ],
+      [
+        1271,
+        193
+      ],
+      [
+        1271,
+        241
+      ],
+      [
+        1211,
+        241
+      ]
+    ],
+    "label": [
+      1240,
+      217,
+      [
+        "Store"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "21",
+    "plan": "Storage",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-22",
+    "name": "Lobby WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1211,
+        244
+      ],
+      [
+        1271,
+        244
+      ],
+      [
+        1271,
+        348
+      ],
+      [
+        1211,
+        348
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "22",
+    "plan": "1# Lavatory WC (FE)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-23",
+    "name": "Lobby accessible WC",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1238,
+        350
+      ],
+      [
+        1271,
+        350
+      ],
+      [
+        1271,
+        380
+      ],
+      [
+        1238,
+        380
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "23",
+    "plan": "Barrier-free Lavatory",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-24",
+    "name": "Lobby WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1211,
+        350
+      ],
+      [
+        1236,
+        350
+      ],
+      [
+        1236,
+        382
+      ],
+      [
+        1270,
+        382
+      ],
+      [
+        1270,
+        451
+      ],
+      [
+        1211,
+        451
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "24",
+    "plan": "1# Lavatory WC (MA)",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-25",
+    "name": "Lobby Storage 2",
+    "kind": "Support",
+    "shape": [
+      [
+        1211,
+        454
+      ],
+      [
+        1271,
+        454
+      ],
+      [
+        1271,
+        500
+      ],
+      [
+        1211,
+        500
+      ]
+    ],
+    "label": [
+      1240,
+      477,
+      [
+        "Store"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "25",
+    "plan": "Storage",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-26",
+    "name": "Loading Dock",
+    "kind": "Services",
+    "shape": [
+      [
+        697,
+        99
+      ],
+      [
+        840,
+        99
+      ],
+      [
+        840,
+        190
+      ],
+      [
+        777,
+        190
+      ],
+      [
+        777,
+        140
+      ],
+      [
+        697,
+        140
+      ]
+    ],
+    "label": [
+      795,
+      119,
+      [
+        "Loading Dock"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "26",
+    "plan": "Dock leveler",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-27",
+    "name": "Backstage Corridor",
+    "kind": "Circulation",
+    "shape": [
+      [
+        652,
+        102
+      ],
+      [
+        691,
+        102
+      ],
+      [
+        691,
+        589
+      ],
+      [
+        651,
+        589
+      ],
+      [
+        651,
+        397
+      ],
+      [
+        556,
+        397
+      ],
+      [
+        556,
+        342
+      ],
+      [
+        652,
+        342
+      ]
+    ],
+    "label": [
+      670,
+      346,
+      [
+        "Backstage"
+      ],
+      90
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "27",
+    "plan": "Circulation",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-28",
+    "name": "Stair 3",
+    "kind": "Circulation",
+    "shape": [
+      [
+        696,
+        146
+      ],
+      [
+        772,
+        146
+      ],
+      [
+        772,
+        191
+      ],
+      [
+        696,
+        191
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "28",
+    "plan": "3# Stair",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-29",
+    "name": "Stair 4",
+    "kind": "Circulation",
+    "shape": [
+      [
+        696,
+        504
+      ],
+      [
+        772,
+        504
+      ],
+      [
+        772,
+        548
+      ],
+      [
+        696,
+        548
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "29",
+    "plan": "4# Stair",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-30",
+    "name": "Stair 5",
+    "kind": "Circulation",
+    "shape": [
+      [
+        369,
+        102
+      ],
+      [
+        430,
+        102
+      ],
+      [
+        430,
+        232
+      ],
+      [
+        369,
+        232
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "30",
+    "plan": "5# Stair",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-31",
+    "name": "Auditorium Stair 1",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        162
+      ],
+      [
+        1205,
+        162
+      ],
+      [
+        1205,
+        189
+      ],
+      [
+        989,
+        189
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "31",
+    "plan": "1-1# Stair",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-1F-32",
+    "name": "Auditorium Stair 2",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        504
+      ],
+      [
+        1205,
+        504
+      ],
+      [
+        1205,
+        531
+      ],
+      [
+        989,
+        531
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "32",
+    "plan": "2-1# Stair",
+    "short": null,
+    "building": "G",
+    "floor": 1
+  },
+  {
+    "id": "G-2F-01",
+    "name": "Music Office 1",
+    "kind": "Support",
+    "shape": [
+      [
+        174,
+        108
+      ],
+      [
+        257,
+        108
+      ],
+      [
+        257,
+        190
+      ],
+      [
+        174,
+        190
+      ]
+    ],
+    "label": [
+      213,
+      151,
+      [
+        "Music Office"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-01",
+    "plan": "Music Office 4P",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-02",
+    "name": "Music Office 2",
+    "kind": "Support",
+    "shape": [
+      [
+        174,
+        195
+      ],
+      [
+        242,
+        195
+      ],
+      [
+        242,
+        302
+      ],
+      [
+        174,
+        302
+      ]
+    ],
+    "label": [
+      208,
+      251,
+      [
+        "Music Office"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-02",
+    "plan": "Music Office 6P",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-03",
+    "name": "Music corridor WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        263,
+        108
+      ],
+      [
+        323,
+        108
+      ],
+      [
+        323,
+        188
+      ],
+      [
+        263,
+        188
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-03",
+    "plan": "7# Lavatory WC(F)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-04",
+    "name": "Music corridor WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        325,
+        108
+      ],
+      [
+        365,
+        108
+      ],
+      [
+        365,
+        188
+      ],
+      [
+        325,
+        188
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-04",
+    "plan": "WC(M)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-05",
+    "name": "Musical Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        324,
+        195
+      ],
+      [
+        364,
+        195
+      ],
+      [
+        364,
+        207
+      ],
+      [
+        373,
+        207
+      ],
+      [
+        373,
+        295
+      ],
+      [
+        306,
+        295
+      ],
+      [
+        306,
+        196
+      ]
+    ],
+    "label": [
+      339,
+      251,
+      [
+        "Music Store"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-05",
+    "plan": "Musical Storage",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-06",
+    "name": "Dressing Room",
+    "kind": "Support",
+    "shape": [
+      [
+        174,
+        307
+      ],
+      [
+        242,
+        307
+      ],
+      [
+        242,
+        328
+      ],
+      [
+        321,
+        328
+      ],
+      [
+        321,
+        377
+      ],
+      [
+        174,
+        377
+      ]
+    ],
+    "label": [
+      224,
+      352,
+      [
+        "Dressing"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-06",
+    "plan": "Dressing Room",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-07",
+    "name": "Music Group Practice 1",
+    "kind": "Music",
+    "shape": [
+      [
+        174,
+        382
+      ],
+      [
+        320,
+        382
+      ],
+      [
+        320,
+        425
+      ],
+      [
+        305,
+        425
+      ],
+      [
+        305,
+        474
+      ],
+      [
+        319,
+        474
+      ],
+      [
+        319,
+        484
+      ],
+      [
+        174,
+        484
+      ]
+    ],
+    "label": [
+      242,
+      425,
+      [
+        "Music Group",
+        "Practice 1"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-07",
+    "plan": "Music Group Practice 42P",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-08",
+    "name": "Music Group Practice 2",
+    "kind": "Music",
+    "shape": [
+      [
+        174,
+        488
+      ],
+      [
+        320,
+        488
+      ],
+      [
+        320,
+        584
+      ],
+      [
+        174,
+        584
+      ]
+    ],
+    "label": [
+      242,
+      540,
+      [
+        "Music Group",
+        "Practice 2"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-08",
+    "plan": "Music Group Practice 42P",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-09",
+    "name": "Backstage Stair 5",
+    "kind": "Circulation",
+    "shape": [
+      [
+        372,
+        108
+      ],
+      [
+        429,
+        108
+      ],
+      [
+        429,
+        195
+      ],
+      [
+        372,
+        195
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-09",
+    "plan": "5# Stair",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-10",
+    "name": "Cargo Lift",
+    "kind": "Services",
+    "shape": [
+      [
+        385,
+        239
+      ],
+      [
+        424,
+        239
+      ],
+      [
+        424,
+        286
+      ],
+      [
+        385,
+        286
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-10",
+    "plan": "1# Elevator Cargo",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-11",
+    "name": "Audio Equipment Store",
+    "kind": "Support",
+    "shape": [
+      [
+        432,
+        106
+      ],
+      [
+        556,
+        106
+      ],
+      [
+        556,
+        144
+      ],
+      [
+        432,
+        144
+      ]
+    ],
+    "label": [
+      490,
+      129,
+      [
+        "Audio Store"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-11",
+    "plan": "Audio Equipt Store",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-12",
+    "name": "Music Store",
+    "kind": "Support",
+    "shape": [
+      [
+        560,
+        106
+      ],
+      [
+        616,
+        106
+      ],
+      [
+        616,
+        144
+      ],
+      [
+        560,
+        144
+      ]
+    ],
+    "label": [
+      589,
+      129,
+      [
+        "Storage"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-12",
+    "plan": "Storage",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-13",
+    "name": "Instrument Room 1",
+    "kind": "Support",
+    "shape": [
+      [
+        458,
+        176
+      ],
+      [
+        489,
+        176
+      ],
+      [
+        489,
+        234
+      ],
+      [
+        458,
+        234
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-13",
+    "plan": "Instrument RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-14",
+    "name": "Music Practice 01",
+    "kind": "Music",
+    "shape": [
+      [
+        458,
+        238
+      ],
+      [
+        489,
+        238
+      ],
+      [
+        489,
+        296
+      ],
+      [
+        458,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-14",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-15",
+    "name": "Instrument Room 2",
+    "kind": "Support",
+    "shape": [
+      [
+        491,
+        176
+      ],
+      [
+        518,
+        176
+      ],
+      [
+        518,
+        234
+      ],
+      [
+        491,
+        234
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-15",
+    "plan": "Instrument RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-16",
+    "name": "Music Practice 02",
+    "kind": "Music",
+    "shape": [
+      [
+        491,
+        238
+      ],
+      [
+        518,
+        238
+      ],
+      [
+        518,
+        296
+      ],
+      [
+        491,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-16",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-17",
+    "name": "Instrument Room 3",
+    "kind": "Support",
+    "shape": [
+      [
+        520,
+        176
+      ],
+      [
+        547,
+        176
+      ],
+      [
+        547,
+        234
+      ],
+      [
+        520,
+        234
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-17",
+    "plan": "Instrument RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-18",
+    "name": "Music Practice 03",
+    "kind": "Music",
+    "shape": [
+      [
+        520,
+        238
+      ],
+      [
+        547,
+        238
+      ],
+      [
+        547,
+        296
+      ],
+      [
+        520,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-18",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-19",
+    "name": "Instrument Room 4",
+    "kind": "Support",
+    "shape": [
+      [
+        549,
+        176
+      ],
+      [
+        577,
+        176
+      ],
+      [
+        577,
+        234
+      ],
+      [
+        549,
+        234
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-19",
+    "plan": "Instrument RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-20",
+    "name": "Music Practice 04",
+    "kind": "Music",
+    "shape": [
+      [
+        549,
+        238
+      ],
+      [
+        577,
+        238
+      ],
+      [
+        577,
+        296
+      ],
+      [
+        549,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-20",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-21",
+    "name": "Instrument Room 5",
+    "kind": "Support",
+    "shape": [
+      [
+        579,
+        176
+      ],
+      [
+        612,
+        176
+      ],
+      [
+        612,
+        234
+      ],
+      [
+        579,
+        234
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-21",
+    "plan": "Instrument RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-22",
+    "name": "Music Practice 05",
+    "kind": "Music",
+    "shape": [
+      [
+        579,
+        238
+      ],
+      [
+        612,
+        238
+      ],
+      [
+        612,
+        296
+      ],
+      [
+        579,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-22",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-23",
+    "name": "Music Practice 06",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        340
+      ],
+      [
+        612,
+        340
+      ],
+      [
+        612,
+        369
+      ],
+      [
+        557,
+        369
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-23",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-24",
+    "name": "Music Practice 07",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        371
+      ],
+      [
+        612,
+        371
+      ],
+      [
+        612,
+        397
+      ],
+      [
+        557,
+        397
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-24",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-25",
+    "name": "Music Practice 08",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        399
+      ],
+      [
+        612,
+        399
+      ],
+      [
+        612,
+        424
+      ],
+      [
+        557,
+        426
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-25",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-26",
+    "name": "Music Practice 09",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        428
+      ],
+      [
+        612,
+        426
+      ],
+      [
+        612,
+        455
+      ],
+      [
+        557,
+        455
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-26",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-27",
+    "name": "Music Practice 10",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        457
+      ],
+      [
+        612,
+        457
+      ],
+      [
+        612,
+        480
+      ],
+      [
+        557,
+        480
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-27",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-28",
+    "name": "Music Practice 11",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        482
+      ],
+      [
+        612,
+        482
+      ],
+      [
+        612,
+        506
+      ],
+      [
+        557,
+        505
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-28",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-29",
+    "name": "Music Practice 12",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        507
+      ],
+      [
+        612,
+        508
+      ],
+      [
+        612,
+        533
+      ],
+      [
+        557,
+        533
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-29",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-30",
+    "name": "Music Practice 13",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        535
+      ],
+      [
+        612,
+        535
+      ],
+      [
+        612,
+        558
+      ],
+      [
+        557,
+        560
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-30",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-31",
+    "name": "Music Practice 14",
+    "kind": "Music",
+    "shape": [
+      [
+        557,
+        562
+      ],
+      [
+        612,
+        560
+      ],
+      [
+        612,
+        581
+      ],
+      [
+        557,
+        581
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-31",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-32",
+    "name": "Music Practice 15",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        192
+      ],
+      [
+        693,
+        192
+      ],
+      [
+        693,
+        221
+      ],
+      [
+        643,
+        222
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-32",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-33",
+    "name": "Music Practice 16",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        224
+      ],
+      [
+        693,
+        223
+      ],
+      [
+        693,
+        253
+      ],
+      [
+        643,
+        257
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-33",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-34",
+    "name": "Music Practice 17",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        259
+      ],
+      [
+        693,
+        255
+      ],
+      [
+        693,
+        294
+      ],
+      [
+        643,
+        294
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-34",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-35",
+    "name": "Music Practice 18",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        296
+      ],
+      [
+        693,
+        296
+      ],
+      [
+        693,
+        321
+      ],
+      [
+        643,
+        324
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-35",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-36",
+    "name": "Music Practice 19",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        326
+      ],
+      [
+        693,
+        323
+      ],
+      [
+        693,
+        352
+      ],
+      [
+        643,
+        352
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-36",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-37",
+    "name": "Music Practice 20",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        354
+      ],
+      [
+        693,
+        354
+      ],
+      [
+        693,
+        379
+      ],
+      [
+        643,
+        383
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-37",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-38",
+    "name": "Music Practice 21",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        385
+      ],
+      [
+        693,
+        381
+      ],
+      [
+        693,
+        410
+      ],
+      [
+        643,
+        410
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-38",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-39",
+    "name": "Music Practice 22",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        412
+      ],
+      [
+        693,
+        412
+      ],
+      [
+        693,
+        439
+      ],
+      [
+        643,
+        442
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-39",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-40",
+    "name": "Music Practice 23",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        444
+      ],
+      [
+        693,
+        441
+      ],
+      [
+        693,
+        471
+      ],
+      [
+        643,
+        471
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-40",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-41",
+    "name": "Music Practice 24",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        473
+      ],
+      [
+        693,
+        473
+      ],
+      [
+        693,
+        499
+      ],
+      [
+        643,
+        500
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-41",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-42",
+    "name": "Music Practice 25",
+    "kind": "Music",
+    "shape": [
+      [
+        643,
+        502
+      ],
+      [
+        693,
+        501
+      ],
+      [
+        693,
+        550
+      ],
+      [
+        643,
+        550
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-42",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-43",
+    "name": "Music Practice 26",
+    "kind": "Music",
+    "shape": [
+      [
+        372,
+        339
+      ],
+      [
+        401,
+        339
+      ],
+      [
+        401,
+        395
+      ],
+      [
+        372,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-43",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-44",
+    "name": "Music Practice 27",
+    "kind": "Music",
+    "shape": [
+      [
+        404,
+        339
+      ],
+      [
+        430,
+        339
+      ],
+      [
+        430,
+        395
+      ],
+      [
+        404,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-44",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-45",
+    "name": "Music Practice 28",
+    "kind": "Music",
+    "shape": [
+      [
+        433,
+        339
+      ],
+      [
+        458,
+        339
+      ],
+      [
+        458,
+        395
+      ],
+      [
+        433,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-45",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-46",
+    "name": "Music Practice 29",
+    "kind": "Music",
+    "shape": [
+      [
+        460,
+        339
+      ],
+      [
+        484,
+        339
+      ],
+      [
+        484,
+        395
+      ],
+      [
+        460,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-46",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-47",
+    "name": "Music Practice 30",
+    "kind": "Music",
+    "shape": [
+      [
+        487,
+        339
+      ],
+      [
+        514,
+        339
+      ],
+      [
+        514,
+        395
+      ],
+      [
+        487,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-47",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-48",
+    "name": "Music Practice 31",
+    "kind": "Music",
+    "shape": [
+      [
+        517,
+        339
+      ],
+      [
+        551,
+        339
+      ],
+      [
+        551,
+        395
+      ],
+      [
+        517,
+        395
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": true,
+    "resource": "G-2F-48",
+    "plan": "Music Practice",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-49",
+    "name": "Stage opening",
+    "kind": "Void",
+    "shape": [
+      [
+        699,
+        197
+      ],
+      [
+        859,
+        197
+      ],
+      [
+        859,
+        498
+      ],
+      [
+        699,
+        498
+      ]
+    ],
+    "label": [
+      779,
+      356,
+      [
+        "Open to stage",
+        "below"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-49",
+    "plan": "Stage opening shown on 2F drawing",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-50",
+    "name": "Auditorium seating · 2F",
+    "kind": "Performance",
+    "shape": [
+      [
+        922,
+        274
+      ],
+      [
+        952,
+        260
+      ],
+      [
+        965,
+        224
+      ],
+      [
+        986,
+        198
+      ],
+      [
+        1206,
+        198
+      ],
+      [
+        1206,
+        498
+      ],
+      [
+        987,
+        498
+      ],
+      [
+        965,
+        472
+      ],
+      [
+        950,
+        433
+      ],
+      [
+        922,
+        431
+      ]
+    ],
+    "label": [
+      1074,
+      352,
+      [
+        "Auditorium",
+        "seating"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "main-theatre",
+    "plan": "Audience seating shown on 2F drawing",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-51",
+    "name": "Projection & Lighting Control Room",
+    "kind": "Services",
+    "shape": [
+      [
+        1212,
+        298
+      ],
+      [
+        1273,
+        298
+      ],
+      [
+        1273,
+        426
+      ],
+      [
+        1212,
+        426
+      ]
+    ],
+    "label": [
+      1244,
+      364,
+      [
+        "Control",
+        "Room"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-51",
+    "plan": "Projection/Light Control Room",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-52",
+    "name": "Theatre WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1212,
+        193
+      ],
+      [
+        1273,
+        193
+      ],
+      [
+        1273,
+        295
+      ],
+      [
+        1212,
+        295
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-52",
+    "plan": "4# Lavatory WC(F)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-53",
+    "name": "Theatre WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1231,
+        429
+      ],
+      [
+        1273,
+        429
+      ],
+      [
+        1273,
+        503
+      ],
+      [
+        1231,
+        503
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-53",
+    "plan": "5# Lavatory WC(M)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-54",
+    "name": "Backstage WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        883,
+        149
+      ],
+      [
+        939,
+        149
+      ],
+      [
+        939,
+        192
+      ],
+      [
+        883,
+        192
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-54",
+    "plan": "WC(F)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-55",
+    "name": "Backstage WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        780,
+        149
+      ],
+      [
+        868,
+        149
+      ],
+      [
+        868,
+        192
+      ],
+      [
+        780,
+        192
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-55",
+    "plan": "6# Lavatory WC(M)",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-56",
+    "name": "Amplifier Room",
+    "kind": "Services",
+    "shape": [
+      [
+        882,
+        525
+      ],
+      [
+        945,
+        525
+      ],
+      [
+        945,
+        512
+      ],
+      [
+        978,
+        512
+      ],
+      [
+        978,
+        582
+      ],
+      [
+        882,
+        582
+      ]
+    ],
+    "label": [
+      932,
+      555,
+      [
+        "Amplifier"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-56",
+    "plan": "Amplifier Room",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-57",
+    "name": "Illumination Dimmer Room",
+    "kind": "Services",
+    "shape": [
+      [
+        793,
+        504
+      ],
+      [
+        838,
+        504
+      ],
+      [
+        838,
+        546
+      ],
+      [
+        793,
+        546
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-57",
+    "plan": "Illumination Dimmer RM",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-58",
+    "name": "Stair 3",
+    "kind": "Circulation",
+    "shape": [
+      [
+        698,
+        149
+      ],
+      [
+        776,
+        149
+      ],
+      [
+        776,
+        191
+      ],
+      [
+        698,
+        191
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-58",
+    "plan": "3# Stair",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-59",
+    "name": "Stair 4",
+    "kind": "Circulation",
+    "shape": [
+      [
+        698,
+        504
+      ],
+      [
+        792,
+        504
+      ],
+      [
+        792,
+        546
+      ],
+      [
+        698,
+        546
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-59",
+    "plan": "4# Stair",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-60",
+    "name": "Auditorium Stair 1",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        161
+      ],
+      [
+        1210,
+        161
+      ],
+      [
+        1210,
+        189
+      ],
+      [
+        989,
+        189
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-60",
+    "plan": "1-1# Stair",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-2F-61",
+    "name": "Auditorium Stair 2",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        507
+      ],
+      [
+        1210,
+        507
+      ],
+      [
+        1210,
+        533
+      ],
+      [
+        989,
+        533
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-2F-61",
+    "plan": "2-1# Stair",
+    "building": "G",
+    "floor": 2
+  },
+  {
+    "id": "G-3F-01",
+    "name": "Art Office",
+    "kind": "Support",
+    "shape": [
+      [
+        182,
+        116
+      ],
+      [
+        231,
+        116
+      ],
+      [
+        231,
+        296
+      ],
+      [
+        182,
+        296
+      ]
+    ],
+    "label": [
+      208,
+      245,
+      [
+        "Art Office"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-01",
+    "plan": "Art Office",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-02",
+    "name": "Logistics Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        237,
+        116
+      ],
+      [
+        279,
+        116
+      ],
+      [
+        279,
+        215
+      ],
+      [
+        237,
+        215
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-02",
+    "plan": "Logistics Storage",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-03",
+    "name": "Pottery Room",
+    "kind": "Creative",
+    "shape": [
+      [
+        281,
+        116
+      ],
+      [
+        368,
+        116
+      ],
+      [
+        368,
+        188
+      ],
+      [
+        314,
+        188
+      ],
+      [
+        314,
+        217
+      ],
+      [
+        281,
+        217
+      ]
+    ],
+    "label": [
+      324,
+      158,
+      [
+        "Pottery"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-03",
+    "plan": "Pottery Room 22P",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-04",
+    "name": "Darkroom",
+    "kind": "Support",
+    "shape": [
+      [
+        237,
+        233
+      ],
+      [
+        280,
+        233
+      ],
+      [
+        280,
+        296
+      ],
+      [
+        237,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-04",
+    "plan": "Dark RM",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-05",
+    "name": "Art & Design Studio 1",
+    "kind": "Creative",
+    "shape": [
+      [
+        434,
+        116
+      ],
+      [
+        568,
+        116
+      ],
+      [
+        568,
+        190
+      ],
+      [
+        548,
+        190
+      ],
+      [
+        548,
+        296
+      ],
+      [
+        434,
+        296
+      ]
+    ],
+    "label": [
+      508,
+      166,
+      [
+        "Art & Design",
+        "Studio 1"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-05",
+    "plan": "Art&Design 71P",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-06",
+    "name": "Article Storage 1",
+    "kind": "Support",
+    "shape": [
+      [
+        553,
+        195
+      ],
+      [
+        586,
+        195
+      ],
+      [
+        586,
+        296
+      ],
+      [
+        553,
+        296
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-06",
+    "plan": "Article Storage",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-07",
+    "name": "Student Work Storage",
+    "kind": "Support",
+    "shape": [
+      [
+        323,
+        230
+      ],
+      [
+        366,
+        230
+      ],
+      [
+        366,
+        294
+      ],
+      [
+        323,
+        294
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-07",
+    "plan": "Student Work Storage",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-08",
+    "name": "Art Preparation Room",
+    "kind": "Support",
+    "shape": [
+      [
+        281,
+        378
+      ],
+      [
+        324,
+        378
+      ],
+      [
+        324,
+        480
+      ],
+      [
+        281,
+        480
+      ]
+    ],
+    "label": [
+      301,
+      436,
+      [
+        "Art Prep",
+        "Room"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-08",
+    "plan": "Art Preparing Room",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-09",
+    "name": "Art & Design Studio 2",
+    "kind": "Creative",
+    "shape": [
+      [
+        182,
+        379
+      ],
+      [
+        277,
+        379
+      ],
+      [
+        277,
+        482
+      ],
+      [
+        323,
+        482
+      ],
+      [
+        323,
+        575
+      ],
+      [
+        182,
+        575
+      ]
+    ],
+    "label": [
+      234,
+      535,
+      [
+        "Art & Design",
+        "Studio 2"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-09",
+    "plan": "Art&Design 76P",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-10",
+    "name": "Computer Area",
+    "kind": "Creative",
+    "shape": [
+      [
+        327,
+        400
+      ],
+      [
+        404,
+        400
+      ],
+      [
+        404,
+        575
+      ],
+      [
+        327,
+        575
+      ]
+    ],
+    "label": [
+      362,
+      540,
+      [
+        "Computer",
+        "Area"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-10",
+    "plan": "Computer Area",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-11",
+    "name": "Art & Design Studio 3",
+    "kind": "Creative",
+    "shape": [
+      [
+        410,
+        400
+      ],
+      [
+        504,
+        400
+      ],
+      [
+        504,
+        575
+      ],
+      [
+        410,
+        575
+      ]
+    ],
+    "label": [
+      468,
+      523,
+      [
+        "Art & Design",
+        "Studio 3"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-11",
+    "plan": "Art&Design 55P",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-12",
+    "name": "Article Storage 2",
+    "kind": "Support",
+    "shape": [
+      [
+        510,
+        424
+      ],
+      [
+        551,
+        424
+      ],
+      [
+        551,
+        575
+      ],
+      [
+        510,
+        575
+      ]
+    ],
+    "label": [
+      533,
+      546,
+      [
+        "Storage"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-12",
+    "plan": "Article Storage",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-13",
+    "name": "Art & Design Studio 4",
+    "kind": "Creative",
+    "shape": [
+      [
+        554,
+        402
+      ],
+      [
+        668,
+        402
+      ],
+      [
+        668,
+        575
+      ],
+      [
+        554,
+        575
+      ]
+    ],
+    "label": [
+      612,
+      521,
+      [
+        "Art & Design",
+        "Studio 4"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-13",
+    "plan": "Art&Design 65P",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-14",
+    "name": "Art Break-out Hub",
+    "kind": "Creative",
+    "shape": [
+      [
+        182,
+        301
+      ],
+      [
+        668,
+        301
+      ],
+      [
+        668,
+        375
+      ],
+      [
+        182,
+        375
+      ]
+    ],
+    "label": [
+      480,
+      355,
+      [
+        "Art Break-out Hub"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-14",
+    "plan": "Art Break-out Hub",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-15",
+    "name": "Cargo Lift",
+    "kind": "Services",
+    "shape": [
+      [
+        391,
+        239
+      ],
+      [
+        426,
+        239
+      ],
+      [
+        426,
+        286
+      ],
+      [
+        391,
+        286
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-15",
+    "plan": "1# Elevator Cargo",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-16",
+    "name": "Backstage Stair 5",
+    "kind": "Circulation",
+    "shape": [
+      [
+        374,
+        118
+      ],
+      [
+        428,
+        118
+      ],
+      [
+        428,
+        188
+      ],
+      [
+        374,
+        188
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-16",
+    "plan": "5# Stair",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-17",
+    "name": "Void over stage",
+    "kind": "Void",
+    "shape": [
+      [
+        716,
+        218
+      ],
+      [
+        853,
+        218
+      ],
+      [
+        853,
+        489
+      ],
+      [
+        716,
+        489
+      ]
+    ],
+    "label": [
+      786,
+      355,
+      [
+        "Open to stage",
+        "below"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-17",
+    "plan": "Stage opening shown on 3F drawing",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-18",
+    "name": "Void over auditorium",
+    "kind": "Void",
+    "shape": [
+      [
+        869,
+        251
+      ],
+      [
+        895,
+        245
+      ],
+      [
+        913,
+        211
+      ],
+      [
+        1082,
+        197
+      ],
+      [
+        1082,
+        498
+      ],
+      [
+        909,
+        495
+      ],
+      [
+        895,
+        451
+      ],
+      [
+        869,
+        440
+      ]
+    ],
+    "label": [
+      987,
+      353,
+      [
+        "Open to auditorium",
+        "below"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-18",
+    "plan": "Auditorium opening shown on 3F drawing",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-19",
+    "name": "Auditorium balcony",
+    "kind": "Performance",
+    "shape": [
+      [
+        1085,
+        195
+      ],
+      [
+        1206,
+        195
+      ],
+      [
+        1206,
+        499
+      ],
+      [
+        1085,
+        499
+      ]
+    ],
+    "label": [
+      1146,
+      350,
+      [
+        "Auditorium",
+        "balcony"
+      ]
+    ],
+    "seats": 229,
+    "bookable": true,
+    "resource": "main-theatre",
+    "plan": "Audience Area",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-20",
+    "name": "Stage Equipment Control Room",
+    "kind": "Services",
+    "shape": [
+      [
+        881,
+        507
+      ],
+      [
+        972,
+        507
+      ],
+      [
+        972,
+        575
+      ],
+      [
+        881,
+        575
+      ]
+    ],
+    "label": [
+      929,
+      543,
+      [
+        "Stage Control"
+      ]
+    ],
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-20",
+    "plan": "Stage Equipment Control Room",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-21",
+    "name": "Backstage Store",
+    "kind": "Support",
+    "shape": [
+      [
+        793,
+        507
+      ],
+      [
+        837,
+        507
+      ],
+      [
+        837,
+        547
+      ],
+      [
+        793,
+        547
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-21",
+    "plan": "Storage",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-22",
+    "name": "Follow Spot Room 1",
+    "kind": "Services",
+    "shape": [
+      [
+        1211,
+        193
+      ],
+      [
+        1271,
+        193
+      ],
+      [
+        1271,
+        239
+      ],
+      [
+        1237,
+        239
+      ],
+      [
+        1237,
+        270
+      ],
+      [
+        1211,
+        270
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-22",
+    "plan": "Follow Spot Room",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-23",
+    "name": "Follow Spot Room 2",
+    "kind": "Services",
+    "shape": [
+      [
+        1211,
+        426
+      ],
+      [
+        1238,
+        426
+      ],
+      [
+        1238,
+        450
+      ],
+      [
+        1271,
+        450
+      ],
+      [
+        1271,
+        502
+      ],
+      [
+        1211,
+        502
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-23",
+    "plan": "Follow Spot Room",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-24",
+    "name": "Theatre WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1239,
+        241
+      ],
+      [
+        1272,
+        241
+      ],
+      [
+        1272,
+        324
+      ],
+      [
+        1239,
+        324
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-24",
+    "plan": "8# Lavatory WC(F)",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-25",
+    "name": "Theatre WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        1239,
+        384
+      ],
+      [
+        1272,
+        384
+      ],
+      [
+        1272,
+        448
+      ],
+      [
+        1239,
+        448
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-25",
+    "plan": "9# Lavatory WC(M)",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-26",
+    "name": "Backstage WC · women",
+    "kind": "Facilities",
+    "shape": [
+      [
+        883,
+        130
+      ],
+      [
+        978,
+        130
+      ],
+      [
+        978,
+        190
+      ],
+      [
+        883,
+        190
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-26",
+    "plan": "WC(F)",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-27",
+    "name": "Backstage WC · men",
+    "kind": "Facilities",
+    "shape": [
+      [
+        797,
+        149
+      ],
+      [
+        862,
+        149
+      ],
+      [
+        862,
+        192
+      ],
+      [
+        797,
+        192
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-27",
+    "plan": "10# Lavatory WC(M)",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-28",
+    "name": "Stair 3",
+    "kind": "Circulation",
+    "shape": [
+      [
+        698,
+        151
+      ],
+      [
+        778,
+        151
+      ],
+      [
+        778,
+        193
+      ],
+      [
+        698,
+        193
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-28",
+    "plan": "3# Stair",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-29",
+    "name": "Stair 4",
+    "kind": "Circulation",
+    "shape": [
+      [
+        697,
+        505
+      ],
+      [
+        792,
+        505
+      ],
+      [
+        792,
+        548
+      ],
+      [
+        697,
+        548
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-29",
+    "plan": "4# Stair",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-30",
+    "name": "Auditorium Stair 1",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        162
+      ],
+      [
+        1210,
+        162
+      ],
+      [
+        1210,
+        189
+      ],
+      [
+        989,
+        189
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-30",
+    "plan": "1-1# Stair",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-31",
+    "name": "Auditorium Stair 2",
+    "kind": "Circulation",
+    "shape": [
+      [
+        989,
+        507
+      ],
+      [
+        1210,
+        507
+      ],
+      [
+        1210,
+        533
+      ],
+      [
+        989,
+        533
+      ]
+    ],
+    "label": null,
+    "seats": null,
+    "bookable": false,
+    "resource": "G-3F-31",
+    "plan": "2-1# Stair",
+    "building": "G",
+    "floor": 3
+  },
+  {
+    "id": "G-3F-32",
+    "name": "Art & Design Studio 5",
+    "kind": "Creative",
+    "shape": [
+      [
+        572,
+        116
+      ],
+      [
+        643,
+        116
+      ],
+      [
+        643,
+        146
+      ],
+      [
+        668,
+        146
+      ],
+      [
+        668,
+        296
+      ],
+      [
+        589,
+        296
+      ],
+      [
+        589,
+        190
+      ],
+      [
+        572,
+        190
+      ]
+    ],
+    "label": [
+      622,
+      170,
+      [
+        "Art & Design",
+        "Studio 5"
+      ]
+    ],
+    "seats": null,
+    "bookable": true,
+    "resource": "G-3F-32",
+    "plan": "Art&Design 51P",
+    "building": "G",
+    "floor": 3
+  }
+]
