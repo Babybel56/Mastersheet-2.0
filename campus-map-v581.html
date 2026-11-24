@@ -1547,5 +1547,36 @@ $('restore-map-backup').onsubmit = async event => {
  renderWhole();
  hide();if(parent!==window)parent.postMessage({type:'ms58-map-ready'},origin);
 })();
+
+// Immersive map presentation is controlled by Mastersheet's real browser fullscreen toggle.
+(()=>{
+const style=document.createElement('style');style.textContent=`
+html.ms581-immersive,html.ms581-immersive body{height:100%;margin:0;overflow:hidden}
+.ms581-immersive .wrap{padding:0!important;margin:0!important;height:100dvh}
+.ms581-immersive .intro,.ms581-immersive .whole-caption,.ms581-immersive .whole-detailbar,.ms581-immersive .level-map-header,.ms581-immersive .isolation,.ms581-immersive .graphic-head,.ms581-immersive .graphic-foot{display:none!important}
+.ms581-immersive #whole-campus{height:100dvh}
+.ms581-immersive .whole-controls{height:34px;box-sizing:border-box;padding:3px 85px 3px 5px;margin:0;gap:5px;flex-wrap:nowrap;justify-content:flex-start;background:#f7fafceF;border-bottom:1px solid #d2dfe8;overflow-x:auto;white-space:nowrap}
+.ms581-immersive .whole-controls .level-buttons{display:flex;flex-wrap:nowrap;gap:3px;flex-shrink:0}
+.ms581-immersive button{font-size:10px!important;padding:3px 7px!important;min-width:0!important;line-height:20px}
+.ms581-immersive .whole-grid{display:block;height:calc(100dvh - 34px)}
+.ms581-immersive .whole-grid>.whole-card:first-child{height:100%;border:0;border-radius:0;box-shadow:none}
+.ms581-immersive .whole-stage{height:100%}
+.ms581-immersive .whole-stage #whole-map{height:100%!important;max-height:none!important;min-height:0!important}
+.ms581-immersive .floor-rail{width:30px;min-width:30px;padding:4px}
+.ms581-immersive .floor-rail label,.ms581-immersive .floor-rail small{display:none}
+.ms581-immersive .whole-directory{display:none!important;position:fixed;top:38px;right:8px;width:240px;max-height:calc(100dvh - 50px);overflow:auto;background:#fff;z-index:5;box-shadow:0 5px 25px #193c6033}
+.ms581-immersive.ms581-directory .whole-directory{display:block!important}
+.ms581-immersive .floor-switcher{padding:3px 85px 3px 4px;margin:0;gap:4px;min-height:34px;box-sizing:border-box}
+.ms581-immersive .floor-switcher button{font-size:9px!important;padding:2px 5px!important}
+.ms581-immersive #floor-workspace .toolbar{padding:3px 5px;gap:4px;height:34px;box-sizing:border-box}
+.ms581-immersive #floor-workspace .toolbar input,.ms581-immersive #floor-workspace .toolbar select{font-size:11px;padding:3px}
+.ms581-immersive #floor-workspace .map-card{border:0;border-radius:0}
+.ms581-immersive #viewport{height:calc(100dvh - 75px)!important;min-height:0;aspect-ratio:auto}
+.ms581-immersive #graphic-stage{height:calc(100dvh - 42px)!important}
+.ms581-immersive #graphic-map{height:100%!important}
+`;document.head.append(style);
+const directory=element('button','⌕ Rooms');directory.type='button';directory.title='Show or hide room directory';directory.setAttribute('aria-pressed','false');directory.onclick=()=>{const on=document.documentElement.classList.toggle('ms581-directory');directory.setAttribute('aria-pressed',String(on));};document.querySelector('.whole-controls').append(directory);
+addEventListener('message',event=>{if(event.source===parent&&event.origin===location.origin&&event.data?.type==='ms581-map-fullscreen'){document.documentElement.classList.toggle('ms581-immersive',!!event.data.on);if(!event.data.on)document.documentElement.classList.remove('ms581-directory');}});
+})();
 </script></body>
 </html>
