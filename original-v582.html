@@ -2131,6 +2131,21 @@ dialog.ms575-exclusion-dialog[open]{display:grid;grid-template-columns:minmax(0,
 @media(min-width:1200px){.d582-area[data-area=grades] .d582-posts{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}}
 @media(max-width:700px){.d5773-now{padding:11px 12px}.d5773-now .d5773-header{align-items:flex-start}.d5773-now .d5773-actions{gap:3px}.d5773-now .d5773-actions button{font-size:10px;padding:3px 5px}.d582-areas{gap:8px}.d582-posts{grid-template-columns:1fr}.d582-area[data-area=grades] .d582-posts,.d582-area[data-area=other] .d582-posts{grid-template-columns:repeat(2,minmax(0,1fr))}.d5773 button.d582-post{padding:7px 8px}.d582-slot-head>span{font-size:11px}.d582-place,.d582-people>span{font-size:11px}}
 @media(max-width:360px){.d582-areas{grid-template-columns:1fr}.d582-area{grid-column:1/-1}.d5773-now .d5773-header{flex-wrap:wrap}}
+/* A shareable board: generous cards in a compact block, rather than a wide strip. */
+.d5773-now{max-width:800px;margin:14px auto 0;padding:18px 20px}
+.d5773-now .d582-areas{gap:12px}
+.d5773-now .d582-area[data-area=grades] .d582-posts{grid-template-columns:repeat(2,minmax(0,1fr))}
+.d5773-now button.d582-post{min-height:104px;padding:13px 14px;border-left-width:4px;border-radius:7px;gap:3px}
+.d5773-now .d582-place{font-size:14px;line-height:1.35}
+.d5773-now .d582-people{margin-top:8px;gap:5px}
+.d5773-now .d582-people>span{font-size:12px;padding:3px 6px}
+.d5773-now .d582-slot-head h2{font-size:17px}
+.d5773-now .d582-area h3{font-size:11px;margin-bottom:7px}
+.d5773-now .d582-next-slot .d582-post{min-height:0!important;padding:7px 10px!important;gap:0}
+.d5773-now .d582-next-slot .d582-place,.d5773-now .d582-next-slot .d582-people>span{font-size:11px}
+.d5773-now .d582-next-slot .d582-slot-head h2{font-size:12px}
+.d5773-now .d582-next-slot .d582-people{margin-top:3px}
+@media(max-width:700px){.d5773-now{padding:13px 12px}.d5773-now button.d582-post{min-height:94px;padding:10px}.d5773-now .d582-place{font-size:12px}.d5773-now .d582-people>span{font-size:11px}.d5773-now .d582-area h3{font-size:10px}.d5773-now .d582-slot-head h2{font-size:15px}}
 </style><style id="ms-title-typography">/* Mastersheet house style: Arial is the default for every title. */
 :root{--title-font:Arial,"Microsoft YaHei",sans-serif;--serif:Arial,"Microsoft YaHei",sans-serif}
 h1,h2,h3,h4,h5,h6,[role=heading],.brand,.brandtxt,.brandtxt *,summary,th,.dt1,.dsub,.ms565-student-card>strong,.ms571-monogram,.ms571-cv-number{font-family:Arial,"Microsoft YaHei",sans-serif!important}
